@@ -20,9 +20,9 @@ The readers are Chinese LOTRO players who use the community Chinese client pack.
 
 The Chinese client pack (`client_local_ZH.dat`) already translates the game. Every game term must read exactly as the
 pack has it: names of places, NPCs, monsters, items, classes, races, stats, skills, traits, deeds, currencies and
-game mechanics. Look them up in the export's `LotroDescriptions.db` (`StringTables` and `StringTemplates`, columns
-`text_en` / `text_zh`), and prefer the most frequent rendering. Only when the pack has no reference do you make your
-own translation, consistent with the pack's style.
+game mechanics. Check how the Chinese client shows a term in the game, and where it uses several renderings, take
+the most common one. Only when the client has no such term do you make your own translation, consistent with the
+pack's style. If you are unsure, ask in an issue.
 
 ### Cleaning up pack strings
 
@@ -91,7 +91,7 @@ Pack strings sometimes carry client markup. Never copy it:
 | Item | 物品 |
 | Monster | 怪物 |
 
-### Site terms (fixed by the lead)
+### Site terms (fixed for this site)
 
 | English | 中文 |
 |---|---|
@@ -154,4 +154,5 @@ These are sentence pieces that the code joins in a fixed order.
 - Counts: `text.counted` is `{n}{noun}` (3扇门), and each noun's `tally` is the number with its measure word (门：3扇关闭).
   `units.joiner` is empty (2分钟30秒), and `ability.json` `text.end` is `。`.
 - The number format: `,` for thousands, `.` for decimals, and no space before `%`.
-- Where the English word order makes good Chinese impossible, translate as well as you can and note the key as
+- Where the English word order makes good Chinese impossible, translate as well as you can and open an issue
+  naming the key, so the sentence can be rebuilt as one template.

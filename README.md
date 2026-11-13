@@ -14,3 +14,9 @@ Game terms follow the Chinese translation of the game client by gooslings and te
 
 Corrections and improvements are welcome as an issue or a pull request. Please keep the JSON keys and every
 placeholder (`{name}`, `${PLACEHOLDER}`, `%s`, `<tags>`) exactly as they are, and change only the Chinese text.
+
+## Licence
+
+The translations in this repository are licensed under [Creative Commons Attribution 4.0 International
+(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); the full text is in [`LICENSE`](LICENSE). By contributing,
+you agree that your changes are published under the same licence.
