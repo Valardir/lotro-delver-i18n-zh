@@ -1,0 +1,10 @@
+{
+  "title": "已连接的应用",
+  "description": "你已允许使用你的账户访问 LotroGPT 的应用。断开某个应用即可停止其访问，该应用最迟会在一小时内失去访问权限。",
+  "empty": "尚未连接任何应用。你允许 Claude 或 ChatGPT 等应用使用 LotroGPT 后，它们会显示在这里。",
+  "connected": "已连接",
+  "disconnect": "断开连接",
+  "disconnecting": "正在断开连接…",
+  "confirm": "要断开{app}吗？在你重新连接之前，它将无法再代表你使用 Lotro Delver。",
+  "error": "无法断开该应用，请重试。"
+}

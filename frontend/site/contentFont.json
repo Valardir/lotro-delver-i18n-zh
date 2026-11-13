@@ -1,0 +1,9 @@
+{
+  "label": "内容字体",
+  "system": "系统字体",
+  "systemHint": "你的系统默认字体，14px",
+  "verdana": "Verdana（游戏内）",
+  "verdanaHint": "与 LOTRO 客户端一致，13px",
+  "trueRendering": "原版渲染",
+  "trueRenderingHint": "使用游戏自带的字体和边框显示提示"
+}

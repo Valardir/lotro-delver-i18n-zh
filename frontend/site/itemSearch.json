@@ -1,0 +1,43 @@
+{
+  "metaTitle": "物品搜索 | Lotro Delver",
+  "metaDescription": "搜索《指环王 Online》中几乎所有的物品。",
+  "liModeWarning": "你当前正在查看传奇物品列表。请前往物品页面重铸该物品，之后即可以正确的等级将其加入你的配装。",
+  "bgModeWarning": "配装生成器模式：请细化搜索条件，为你的配装找到最合适的物品。",
+  "overLimitWarning": "找到超过{count}件物品。仅显示前2000件，请缩小搜索范围。",
+  "searchTimedOut": "搜索超时，请缩小搜索条件。",
+  "noItemsFound": "没有找到符合搜索条件的物品。",
+  "searchPlaceholder": "搜索物品名称或 ID…",
+  "playerLevelPlaceholder": "玩家等级…",
+  "itemLevelPlaceholder": "物品等级…",
+  "selectQualityPlaceholder": "选择品质…",
+  "selectEquipmentCategory": "选择装备类别…",
+  "selectObtainingOrigins": "选择获取途径…",
+  "selectSlot": "选择槽位…",
+  "selectItemClass": "选择物品类别…",
+  "selectCharacterClass": "角色职业…",
+  "selectStatsToAvoid": "选择要排除的属性…",
+  "selectStatsToBeContained": "选择必须包含的属性…",
+  "statsOperatorTooltip": "包含属性的匹配方式",
+  "statsOperatorDisabledTooltip": "请至少填写另一个搜索字段，以启用属性搜索",
+  "weaponDamageTypePlaceholder": "武器具有的伤害类型…",
+  "itemIsObtainable": "物品可获得",
+  "sortBy": "排序依据",
+  "sortOrder": "排序方式",
+  "itemLevelRange": "物品等级范围",
+  "playerLevelRange": "玩家等级范围",
+  "searchButton": "搜索",
+  "clearButton": "清除",
+  "simplifiedSearch": "简易搜索",
+  "advancedSearch": "高级搜索",
+  "goButton": "前往",
+  "sortByOptions": {
+    "name": "名称",
+    "id": "ID",
+    "level": "等级",
+    "lastModified": "最近编辑"
+  },
+  "sortOrderOptions": {
+    "asc": "升序",
+    "desc": "降序"
+  }
+}

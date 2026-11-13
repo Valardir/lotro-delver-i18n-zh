@@ -1,0 +1,37 @@
+{
+  "redeemText": {
+    "metaTitle": "兑换代码",
+    "title": "兑换代码",
+    "intro": "拿到了我们发的代码？在这里输入即可。登录状态下打开促销链接，会自动兑换。",
+    "codeLabel": "代码",
+    "redeem": "兑换",
+    "guestForm": "请登录或创建账户后再兑换代码。",
+    "guestLink": "登录或创建账户，礼物就是你的了。",
+    "linkTitle": "来自 Lotro Delver 的礼物",
+    "signIn": "登录",
+    "signUp": "创建账户",
+    "doneTitle": "代码已兑换",
+    "giftTitle": "你的礼物",
+    "opening": "正在打开你的礼物…",
+    "grantedAccess": "你的账户已解锁新权限。",
+    "grantedAccessUntil": "你的账户已解锁新权限，有效期至{date}。",
+    "grantedTier": "在{date}之前，你都是{name}。在此期间获得的一切都归你所有。",
+    "until": "至{date}",
+    "grantedQuest": "任务完成：{title}",
+    "grantedJokers": "万能牌：+{count}",
+    "nothingNew": "此代码所赠送的内容，你的账户已经全部拥有。",
+    "continue": "继续",
+    "seeProgress": "查看你的进度",
+    "another": "兑换另一个代码",
+    "failed": "出了点问题，请重试。"
+  },
+  "errorText": {
+    "empty": "请输入代码。",
+    "invalid": "此代码不存在，请检查是否输错。",
+    "expired": "此代码已过期。",
+    "used": "此代码已被用完。",
+    "already": "你已经兑换过此代码。",
+    "revoked": "此代码已失效。",
+    "signedOut": "请登录后再兑换代码。"
+  }
+}

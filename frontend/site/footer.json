@@ -1,0 +1,11 @@
+{
+  "copyright": "© 2026 - 保留所有权利。",
+  "unofficialNotice": "这是一个非官方的粉丝网站，与 Daybreak Game Company LLC 或 Standing Stone Games LLC 无任何关联，也未获得其认可、支持或批准。本网站不以盈利为目的。THE LORD OF THE RINGS ONLINE™ interactive video game © 2025 Daybreak Game Company LLC.",
+  "terms": "服务条款",
+  "support": "支持",
+  "version": {
+    "databasePrefix": "DB-V:",
+    "appPrefix": "App-V:",
+    "separator": "|"
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "menus": {
+    "basicStats": "基础属性",
+    "offence": "进攻",
+    "defence": "防御",
+    "avoidance": "规避",
+    "mitigations": "减伤",
+    "damageSource": "伤害来源",
+    "damageType": "伤害类型"
+  },
+  "stats": {
+    "Health_MaxLevel": "士气",
+    "Power_MaxLevel": "能量",
+    "Skill_Beorning_ItemSet_Wrath_Max": "怒火",
+    "Armour": "护甲",
+    "Stat_Might": "力量",
+    "Stat_Agility": "敏捷",
+    "Stat_Vitality": "活力",
+    "Stat_Will": "意志",
+    "Stat_Fate": "信念",
+    "Combat_Class_CriticalPoints_Unified": "暴击等级",
+    "Combat_FinessePoints_Modifier": "策略",
+    "Combat_PhysicalMastery_Modifier_Unified": "物理精通",
+    "Combat_TacticalMastery_Modifier_Unified": "法术精通",
+    "LoE_Light_Modifier": "埃雅仁迪尔之光",
+    "Resist_ClassPoints_Resistance_TheOneResistance": "抗性",
+    "Combat_Unified_Critical_Defense": "暴击防御",
+    "Combat_IncomingHealing_Points_Current": "受到的治疗",
+    "Combat_BlockPoints_Modifier": "格挡",
+    "Combat_ParryPoints_Modifier": "招架",
+    "Combat_EvadePoints_Modifier": "闪避",
+    "Combat_Current_DefensePoints_Melee": "近战",
+    "Combat_Current_DefensePoints_Ranged": "远程",
+    "Combat_Current_DefensePoints_Tactical": "法术",
+    "Combat_ArmorDefense_PointsModifier_UnifiedPhysical": "物理",
+    "Combat_ArmorDefense_PointsModifier_UnifiedTactical": "法术"
+  },
+  "tooltips": {
+    "Health_MaxLevel": {
+      "title": "士气",
+      "description": "你在战斗中被击败前所能承受的伤害量",
+      "sections": {
+        "1": {
+          "header": "士气回复",
+          "lines": [
+            "战斗中每秒回复 {value} 点",
+            "非战斗中每秒回复 {value} 点"
+          ]
+        }
+      }
+    },
+    "Power_MaxLevel": {
+      "title": "能量",
+      "description": "使用技能所需的能量。能量耗尽时无法使用技能。",
+      "sections": {
+        "1": {
+          "header": "能量回复",
+          "lines": [
+            "战斗中每秒回复 {value} 点",
+            "非战斗中每秒回复 {value} 点"
+          ]
+        }
+      }
+    },
+    "Skill_Beorning_ItemSet_Wrath_Max": {
+      "title": "怒火",
+      "description": "比翁使用怒火来驱动他们最强大的技能，尤其是那些需要熊形态的技能。"
+    },
+    "Combat_Class_CriticalPoints_Unified": {
+      "title": "暴击",
+      "description": "提高你的近战、远程和法术攻击的暴击与必杀几率及伤害幅度。\n\n对抗 {playerLevel} 级敌人：",
+      "sections": {
+        "1": {
+          "header": "近战暴击",
+          "lines": [
+            "你的近战攻击暴击几率为",
+            "你的近战攻击必杀几率为",
+            "暴击或必杀的伤害幅度提高"
+          ]
+        },
+        "2": {
+          "header": "远程暴击",
+          "lines": [
+            "你的远程攻击暴击几率为",
+            "你的远程攻击必杀几率为",
+            "暴击或必杀的伤害幅度提高"
+          ]
+        },
+        "3": {
+          "header": "法术暴击",
+          "lines": [
+            "你的法术攻击暴击几率为",
+            "你的法术攻击必杀几率为",
+            "暴击或必杀的伤害幅度提高"
+          ]
+        }
+      }
+    },
+    "Combat_FinessePoints_Modifier": {
+      "title": "策略",
+      "description": "降低对手的抗性、格挡、招架和闪避。对抗 {playerLevel} 级敌人：",
+      "sections": {
+        "1": {
+          "header": "策略",
+          "lines": [
+            "抗性降低约",
+            "格挡、招架和闪避合计降低约"
+          ]
+        }
+      }
+    },
+    "Combat_PhysicalMastery_Modifier_Unified": {
+      "title": "物理精通",
+      "description": "物理精通提高你造成的近战伤害和远程伤害。",
+      "sections": {
+        "1": {
+          "header": "物理近战",
+          "lines": [
+            "对抗 {playerLevel} 级敌人时，你的物理近战攻击伤害提高"
+          ]
+        },
+        "2": {
+          "header": "物理远程",
+          "lines": [
+            "对抗 {playerLevel} 级敌人时，你的物理远程攻击伤害提高"
+          ]
+        }
+      }
+    },
+    "Combat_TacticalMastery_Modifier_Unified": {
+      "title": "法术精通",
+      "description": "法术精通提高你造成的法术伤害和你的治疗量。",
+      "sections": {
+        "1": {
+          "header": "法术进攻",
+          "lines": [
+            "对抗 {playerLevel} 级敌人时，你的法术攻击伤害提高"
+          ]
+        },
+        "2": {
+          "header": "法术治疗输出",
+          "lines": [
+            "你治疗的士气量提高"
+          ]
+        }
+      }
+    },
+    "LoE_Light_Modifier": {
+      "title": "埃雅仁迪尔之光",
+      "description": "埃雅仁迪尔之光可抵消“魔多之影”效果造成的惩罚，但本身不提供任何加成。"
+    },
+    "Resist_ClassPoints_Resistance_TheOneResistance": {
+      "title": "抗性",
+      "description": "提供规避所有效果的几率。",
+      "sections": {
+        "1": {
+          "lines": [
+            "你的抗性百分比为"
+          ]
+        }
+      }
+    },
+    "Combat_Unified_Critical_Defense": {
+      "title": "暴击防御",
+      "description": "降低对抗 {playerLevel} 级敌人时所受近战、远程和法术攻击的暴击与必杀伤害幅度：",
+      "sections": {
+        "1": {
+          "header": "近战暴击防御",
+          "lines": [
+            "所受近战暴击与必杀的伤害幅度降低"
+          ]
+        },
+        "2": {
+          "header": "远程暴击防御",
+          "lines": [
+            "所受远程暴击与必杀的伤害幅度降低"
+          ]
+        },
+        "3": {
+          "header": "法术暴击防御",
+          "lines": [
+            "所受法术暴击与必杀的伤害幅度降低"
+          ]
+        }
+      }
+    },
+    "Combat_IncomingHealing_Points_Current": {
+      "title": "受到的治疗",
+      "sections": {
+        "1": {
+          "header": "受到的治疗",
+          "lines": [
+            "你受到的士气治疗量提高"
+          ]
+        }
+      }
+    },
+    "Combat_BlockPoints_Modifier": {
+      "title": "格挡",
+      "description": "可完全规避敌人的攻击，也可部分规避敌人的攻击，并降低部分规避的攻击所造成的伤害（对抗 {playerLevel} 级敌人）。",
+      "sections": {
+        "1": {
+          "lines": [
+            "你格挡攻击的几率为",
+            "你部分格挡攻击的几率为",
+            "部分格挡攻击时，伤害降低"
+          ]
+        }
+      }
+    },
+    "Combat_ParryPoints_Modifier": {
+      "title": "招架",
+      "description": "可完全规避敌人的攻击，也可部分规避敌人的攻击，并降低部分规避的攻击所造成的伤害（对抗 {playerLevel} 级敌人）。",
+      "sections": {
+        "1": {
+          "lines": [
+            "你完全招架的几率为",
+            "你部分招架的几率为",
+            "你的部分招架减免为"
+          ]
+        }
+      }
+    },
+    "Combat_EvadePoints_Modifier": {
+      "title": "闪避",
+      "description": "可完全规避敌人的攻击，也可部分规避敌人的攻击，并降低部分规避的攻击所造成的伤害（对抗 {playerLevel} 级敌人）。",
+      "sections": {
+        "1": {
+          "lines": [
+            "你闪避攻击的几率为",
+            "你部分闪避攻击的几率为",
+            "部分闪避攻击时，伤害降低"
+          ]
+        }
+      }
+    },
+    "Combat_Current_DefensePoints_Melee": {
+      "title": "近战防御",
+      "description": "降低对抗 {playerLevel} 级敌人时所受的近战攻击伤害。",
+      "sections": {
+        "1": {
+          "header": "近战防御",
+          "lines": [
+            "所受近战伤害降低"
+          ]
+        }
+      }
+    },
+    "Combat_Current_DefensePoints_Ranged": {
+      "title": "远程防御",
+      "description": "降低对抗 {playerLevel} 级敌人时所受的远程攻击伤害。",
+      "sections": {
+        "1": {
+          "header": "远程防御",
+          "lines": [
+            "所受远程伤害降低"
+          ]
+        }
+      }
+    },
+    "Combat_Current_DefensePoints_Tactical": {
+      "title": "法术防御",
+      "description": "降低对抗 {playerLevel} 级敌人时所受的法术攻击伤害。",
+      "sections": {
+        "1": {
+          "header": "法术防御",
+          "lines": [
+            "所受法术伤害降低"
+          ]
+        }
+      }
+    },
+    "Combat_ArmorDefense_PointsModifier_UnifiedPhysical": {
+      "title": "物理防御",
+      "description": "降低对抗 {playerLevel} 级敌人时所受的物理攻击伤害。",
+      "sections": {
+        "1": {
+          "lines": [
+            "所受物理伤害降低"
+          ]
+        },
+        "2": {
+          "header": "兽人工艺防御",
+          "lines": [
+            "所受兽人工艺攻击伤害降低"
+          ]
+        },
+        "3": {
+          "header": "邪异锻造防御",
+          "lines": [
+            "所受邪异锻造攻击伤害降低"
+          ]
+        }
+      }
+    },
+    "Combat_ArmorDefense_PointsModifier_UnifiedTactical": {
+      "title": "法术防御",
+      "description": "降低对抗 {playerLevel} 级敌人时所受的法术攻击伤害。",
+      "sections": {
+        "1": {
+          "lines": [
+            "所受法术伤害降低"
+          ]
+        },
+        "2": {
+          "header": "火焰防御",
+          "lines": [
+            "所受火焰攻击伤害降低"
+          ]
+        },
+        "3": {
+          "header": "闪电防御",
+          "lines": [
+            "所受闪电攻击伤害降低"
+          ]
+        },
+        "4": {
+          "header": "冰霜防御",
+          "lines": [
+            "所受冰霜攻击伤害降低"
+          ]
+        },
+        "5": {
+          "header": "酸腐防御",
+          "lines": [
+            "所受酸腐攻击伤害降低"
+          ]
+        },
+        "6": {
+          "header": "暗影防御",
+          "lines": [
+            "所受暗影攻击伤害降低"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "notificationsDictionary": {
+    "bellLabel": "通知",
+    "bellLabelCount": "通知，{count}条新通知",
+    "title": "通知",
+    "metaDescription": "你的 Lotro Delver 通知和通知偏好设置。",
+    "markAllRead": "全部标为已读",
+    "clear": "移除",
+    "clearAll": "全部清除",
+    "clearAllTitle": "清空你的收件箱？",
+    "clearAllBody": "收件箱中的所有通知都将被移除。新闻帖子仍会保留在新闻页面。",
+    "cancel": "取消",
+    "markRead": "标为已读",
+    "seeAll": "查看所有通知",
+    "empty": "你已看完所有通知。",
+    "emptyUnread": "没有未读通知。",
+    "loading": "加载中…",
+    "loadError": "无法加载你的通知。",
+    "loadMore": "加载更多",
+    "inboxTab": "收件箱",
+    "preferencesTab": "偏好设置",
+    "filterAll": "全部",
+    "filterUnread": "未读",
+    "allCategories": "所有类别",
+    "unreadCount": "{count}条未读",
+    "preferencesHint": "选择哪些内容显示在你的收件箱中。通知只会出现在网站上，绝不会通过邮件发送。",
+    "alwaysOn": "始终开启",
+    "preferencesHintSite": "选择网站通知中要显示哪些内容。",
+    "siteTitle": "站内",
+    "settingsLink": "通知设置",
+    "saveError": "无法保存你的偏好设置。",
+    "newsKindsTitle": "收件箱中的新闻",
+    "newsKindsHint": "选择哪些类型的新闻显示在你的收件箱中。所有内容仍会保留在新闻页面，横幅和弹窗也仍会出现。",
+    "newsKindsOff": "请先开启上方的“新闻”，再选择要接收的类型。"
+  },
+  "notificationCategoryText": {
+    "support": {
+      "name": "支持",
+      "description": "你的支持工单的回复和状态变更。"
+    },
+    "news": {
+      "name": "新闻",
+      "description": "公告、版本发布和维护。"
+    },
+    "account": {
+      "name": "账户",
+      "description": "你的账户和功能访问权限的变更。"
+    },
+    "builds": {
+      "name": "配装",
+      "description": "你的配装的新评论、你关注的作者发布的新配装，以及你的配装入选精选。"
+    },
+    "community": {
+      "name": "社区",
+      "description": "你的攻略和评论的审核结果、你的攻略的新评论，以及你的攻略入选精选。"
+    },
+    "system": {
+      "name": "站点",
+      "description": "来自 Lotro Delver 的其他更新。"
+    },
+    "kinship": {
+      "name": "家族",
+      "description": "你的家族页面上的加入申请、角色变更和认领。"
+    }
+  },
+  "notificationKindText": {
+    "account.access_granted": {
+      "title": "你的访问申请已获批准",
+      "body": "你申请的功能现已在你的账户上解锁。"
+    },
+    "account.access_declined": {
+      "title": "你的访问申请未能获批",
+      "body": "目前没有空余名额。感谢你的耐心等待。"
+    },
+    "account.transfer_in": {
+      "title": "你来自{name}的内容现已转入此账户",
+      "body": "你另一个账户中的配装、角色、攻略等所有内容都已转移到这里。"
+    },
+    "support.reply": {
+      "title": "支持团队回复了{ref}",
+      "titleMany": "{ref}有{count}条更新",
+      "body": "{subject}"
+    },
+    "support.status": {
+      "title": "{ref}的状态已变更",
+      "titleMany": "{ref}有{count}条更新",
+      "body": "{subject}"
+    },
+    "support.resolved": {
+      "title": "{ref}已标记为已解决",
+      "titleMany": "{ref}有{count}条更新",
+      "body": "{subject}。如果问题尚未解决，请在一周内回复。"
+    },
+    "support.closed": {
+      "title": "{ref}已关闭",
+      "titleMany": "{ref}有{count}条更新",
+      "body": "{subject}"
+    },
+    "support.staff_message": {
+      "title": "Lotro Delver 团队给你发来一条消息",
+      "titleMany": "{ref}有{count}条更新",
+      "body": "{subject}"
+    },
+    "support.known_issue_fixed": {
+      "title": "你在等待的一个已知问题已修复",
+      "body": "{title}"
+    },
+    "support.issue_merged": {
+      "title": "你的报告已合并到{ref}",
+      "body": "{title}"
+    },
+    "support.issue_fixed": {
+      "title": "你报告的一个问题已修复",
+      "body": "{title}"
+    },
+    "support.issue_closed": {
+      "title": "你关注的一个问题已关闭，但未修复",
+      "body": "{title}"
+    },
+    "news.post": {
+      "title": "{title}",
+      "body": "{summary}"
+    },
+    "build.comment": {
+      "title": "你的配装有新评论",
+      "titleMany": "你的配装有{count}条新评论",
+      "body": "{title}"
+    },
+    "build.points_approved": {
+      "title": "你的配装现已计入你的积分",
+      "body": "{title}"
+    },
+    "build.points_declined": {
+      "title": "你的配装不计入你的积分",
+      "body": "{title}仍保持发布状态。"
+    },
+    "build.author_published": {
+      "title": "{name}发布了新配装",
+      "titleMany": "{name}发布了{count}个新配装",
+      "body": "{title}"
+    },
+    "build.trait_tree_reset": {
+      "title": "游戏更新后特性树已重置",
+      "body": "游戏更新改变了{classes}的特性树，因此你有{builds}个配装的特性树被移除。打开配装即可重新设置。"
+    },
+    "build.spotlighted": {
+      "title": "你的配装入选精选",
+      "body": "{title} · {spotlight}"
+    },
+    "community.guide_approved": {
+      "title": "你的攻略已上线",
+      "body": "{title}"
+    },
+    "community.guide_rejected": {
+      "title": "你的攻略未获通过",
+      "body": "{title} · 原因见“我的攻略”"
+    },
+    "community.guide_changes": {
+      "title": "你的攻略需要修改",
+      "body": "{title}"
+    },
+    "community.guide_removed": {
+      "title": "你的攻略已被下架",
+      "body": "{title}"
+    },
+    "community.comment_rejected": {
+      "title": "你的评论未获通过",
+      "body": "{target}"
+    },
+    "community.guide_spotlighted": {
+      "title": "你的攻略入选精选",
+      "body": "{title} · {spotlight}"
+    },
+    "community.guide_comment": {
+      "title": "你的攻略有新评论",
+      "titleMany": "你的攻略有{count}条新评论",
+      "body": "{title}"
+    },
+    "community.comment_reply": {
+      "title": "你的评论有新回复",
+      "titleMany": "你的评论有{count}条新回复",
+      "body": "{target}"
+    },
+    "scene.comment": {
+      "title": "你的外观有新评论",
+      "titleMany": "你的外观有{count}条新评论",
+      "body": "{name}"
+    },
+    "scene.moderated": {
+      "title": "你的外观已从社区外观中移除",
+      "body": "{name}"
+    },
+    "plan.approved": {
+      "title": "你的方案现已公开",
+      "body": "{title}"
+    },
+    "plan.rejected": {
+      "title": "你的方案未获通过",
+      "body": "{title}"
+    },
+    "plan.changes": {
+      "title": "你的方案需要修改",
+      "body": "{title}"
+    },
+    "plan.moderated": {
+      "title": "你的方案已被下架",
+      "body": "{title}"
+    },
+    "plan.comment": {
+      "title": "你的方案有新评论",
+      "titleMany": "你的方案有{count}条新评论",
+      "body": "{title}"
+    },
+    "community.coauthor_invite": {
+      "title": "{name}邀请你一起编辑",
+      "body": "{title}"
+    },
+    "community.coauthor_accepted": {
+      "title": "{name}已加入成为编辑",
+      "body": "{title}"
+    },
+    "community.coauthor_declined": {
+      "title": "{name}拒绝了你的邀请",
+      "body": "{title}"
+    },
+    "community.coauthor_removed": {
+      "title": "你不再是编辑",
+      "body": "{title}"
+    },
+    "community.coauthor_left": {
+      "title": "{name}不再与你一起编辑",
+      "body": "{title}"
+    },
+    "community.ownership_offer": {
+      "title": "{name}想把所有权转交给你",
+      "body": "{title}"
+    },
+    "community.ownership_accepted": {
+      "title": "{name}现在是所有者",
+      "body": "{title}"
+    },
+    "community.ownership_declined": {
+      "title": "{name}拒绝了所有权",
+      "body": "{title}"
+    },
+    "kinship.role_changed": {
+      "title": "你在{kinship}中的角色已变更",
+      "body": "你现在是{role}。"
+    },
+    "kinship.join_request": {
+      "title": "有人申请加入{kinship}",
+      "titleMany": "有{count}个加入{kinship}的新申请"
+    },
+    "kinship.join_decided": {
+      "title": "你加入{kinship}的申请已有答复",
+      "body": "申请{outcome}。"
+    },
+    "kinship.claim_passed": {
+      "title": "你对{kinship}的认领已通过",
+      "body": "家族页面现在归你了。"
+    },
+    "kinship.ownership_offered": {
+      "title": "{kinship}没有所有者：要接手吗？",
+      "body": "所有者的账户已被删除。你是接任所有者的第一顺位。"
+    },
+    "kinship.event_new": {
+      "title": "{kinship}有新活动",
+      "titleMany": "{kinship}有{count}个新活动",
+      "body": "{title}"
+    },
+    "kinship.event_changed": {
+      "title": "{kinship}的一个活动已变更",
+      "body": "{title}"
+    },
+    "kinship.event_cancelled": {
+      "title": "{kinship}的一个活动已取消",
+      "body": "{title}"
+    },
+    "kinship.signup_status": {
+      "title": "你在{kinship}的报名状态已更新",
+      "body": "{title}：{status}"
+    },
+    "kinship.post": {
+      "title": "{kinship}有新帖子",
+      "body": "{title}"
+    },
+    "kinship.application": {
+      "title": "{kinship}收到新的申请",
+      "titleMany": "{kinship}收到{count}个新申请"
+    },
+    "kinship.application_decided": {
+      "title": "你对{kinship}的申请已有答复",
+      "body": "申请{outcome}。"
+    }
+  }
+}

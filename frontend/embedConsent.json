@@ -1,0 +1,12 @@
+{
+  "title": "加载{name}？",
+  "body": "{name}由{author}制作，托管于{host}。加载时，你的浏览器会连接到{host}并发送你的 IP 地址。在你同意之前，不会加载任何内容。",
+  "privacy": "隐私政策",
+  "remember": "在此设备上记住我的选择",
+  "accept": "加载",
+  "decline": "不加载",
+  "declined": "未加载{name}。",
+  "openDirectly": "改为在{site}上打开",
+  "granted": "你已允许在此设备上加载此内容。",
+  "withdraw": "撤回同意"
+}

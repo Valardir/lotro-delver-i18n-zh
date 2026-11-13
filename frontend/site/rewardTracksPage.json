@@ -1,0 +1,20 @@
+{
+  "title": "奖励路线",
+  "description": "探索《指环王 Online》中所有可用的奖励路线。",
+  "metaTitle": "奖励路线 | Lotro Delver",
+  "metaDescription": "探索《指环王 Online》中所有可用的奖励路线。",
+  "metaImageSubtitle": "探索所有可用的奖励路线",
+  "legendarySection": "传奇物品奖励",
+  "monsterSection": "怪物扮演",
+  "otherSection": "其他路线",
+  "trackFallback": "奖励路线",
+  "tracksLabel": "路线",
+  "trackLabel": "路线",
+  "progressDescription": "通过赛季路线逐步推进，赢取专属传奇物品、怪物扮演奖励等。",
+  "notFound": "未找到该奖励路线。",
+  "purchaseRequired": "需要购买",
+  "purchaseInstructions": "此奖励路线必须在指环王商店中购买",
+  "goToStep": "前往步骤",
+  "step": "步骤",
+  "rewardFallback": "奖励"
+}

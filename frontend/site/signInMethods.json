@@ -1,0 +1,14 @@
+{
+  "title": "登录方式",
+  "description": "你可以用来登录账户的方式。",
+  "linked": "已关联",
+  "link": "关联{provider}",
+  "linkedSuccess": "{provider}已关联，今后你可以使用它登录。",
+  "continue": "继续",
+  "errors": {
+    "alreadyLinked": "此{provider}账号已属于另一个 Lotro Delver 账户。请在那个账户中使用它登录，或关联其他账号。",
+    "sessionNotFresh": "为了你的安全，添加登录方式前请重新登录。",
+    "signInAgain": "重新登录",
+    "failed": "关联失败，请重试。"
+  }
+}

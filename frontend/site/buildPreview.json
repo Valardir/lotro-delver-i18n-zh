@@ -1,0 +1,66 @@
+{
+  "byPrefix": "作者：",
+  "levelPrefix": "等级",
+  "madeForTraitLine": "适用于以下特性线：",
+  "madeForTraitLines": "适用于以下特性线：",
+  "nameBuild": "{name}配装",
+  "levelNameBuild": "{level}级{name}配装",
+  "updateNameBuild": "更新{update}{name}配装",
+  "updateLabel": "更新{update}",
+  "levelValue": "等级{level}",
+  "buildRatingTooltip": "此配装适用于{rating}水平的玩家。",
+  "pvmpBuildLabel": "玩家对战怪物配装",
+  "traitLineSuffix": "特性线",
+  "traitLinesSuffix": "特性线",
+  "buildRatingSuffix": "配装评级",
+  "outdatedWarning": "此配装可能已过时。",
+  "createdPrefix": "创建于",
+  "lastEditedPrefix": "最后编辑于",
+  "goldStarAlt": "金星",
+  "racialTraitsTitle": "点击编辑种族特性",
+  "virtuesTitle": "点击查看特性树、美德和种族特性",
+  "traitColors": {
+    "Red": "红色",
+    "Blue": "蓝色",
+    "Yellow": "黄色"
+  },
+  "rating": {
+    "Beginner": "入门",
+    "Intermediate": "中级",
+    "Advanced": "高级",
+    "Expert": "专家",
+    "Challenger": "挑战者"
+  },
+  "role": {
+    "Heal": "治疗",
+    "Tank": "坦克",
+    "Damage": "伤害",
+    "Support": "辅助",
+    "Multi-Role": "多职责"
+  },
+  "purpose": {
+    "Raiding": "团队副本",
+    "Instances": "副本",
+    "PvMP": "玩家对战怪物",
+    "Delvings": "探掘",
+    "Questing/Leveling": "任务/练级"
+  },
+  "purposeDescriptions": {
+    "Delvings": "此配装适用于探掘。",
+    "Raiding": "此配装专为团队副本战斗打造。",
+    "Questing/Leveling": "此配装适用于野外内容，例如任务和练级。",
+    "Instances": "此配装适用于组队副本和地下城。",
+    "PvMP": "此配装适用于玩家对战怪物（PvMP）。"
+  },
+  "actions": {
+    "optionsButton": "选项",
+    "duplicateBuild": "复制配装",
+    "duplicateConfirm": "确定要复制此配装吗？你所有未保存的本地配装数据都将丢失。",
+    "editBuild": "编辑配装",
+    "editConfirm": "确定要编辑此配装吗？你所有未保存的本地配装数据都将丢失。",
+    "deleteBuild": "删除配装",
+    "deleteConfirm": "确定要删除此配装吗？此操作无法撤销。",
+    "exportToExcel": "导出到 Excel"
+  },
+  "loadingBuildData": "正在加载配装…"
+}

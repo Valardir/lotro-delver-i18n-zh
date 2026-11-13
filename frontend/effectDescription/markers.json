@@ -1,0 +1,103 @@
+{
+  "RESOURCES": {
+    "Atunement": "调谐状态",
+    "Wrath": "怒火",
+    "Aim": "专注",
+    "Fervor": "狂热",
+    "Mettle": "勇气",
+    "Balance": "平衡",
+    "Venom": "毒液",
+    "Rampage": "狂暴",
+    "Momentum": "狂怒",
+    "BB_Vanguard": "连杀",
+    "Rage": "怒气",
+    "Burden": "负担"
+  },
+  "MARKER_CLASSES": {
+    "FlagEffect": {
+      "summary": "一种状态标记，供其他技能和效果检查。"
+    },
+    "ClaimTargetEffect": {
+      "summary": "在短时间内为携带者占有一名敌人。"
+    },
+    "EnterStealthEffect": {
+      "summary": "使目标进入潜行。",
+      "facts": {
+        "0": {
+          "movingEndsIt": "移动会使其结束。"
+        }
+      }
+    },
+    "VanishEffect": {
+      "summary": "使携带者立即回到潜行状态，即使处于战斗中。",
+      "facts": {
+        "0": {
+          "usingASkillThatBreaks": "使用会打破潜行的技能会使其提前结束。"
+        }
+      }
+    },
+    "BlockStealthEffect": {
+      "summary": "生效期间阻止目标进入潜行。"
+    },
+    "BreakStealthEffect": {
+      "summary": "使目标脱离潜行。"
+    },
+    "PipEffect": {
+      "summary": "改变狂热或调谐状态等职业资源。",
+      "lead": {
+        "resetsResource": "使你的{resource}回到默认值。",
+        "shiftsTowardHealing": "使你的调谐状态向治疗偏移{n}。",
+        "shiftsTowardBattle": "使你的调谐状态向战斗偏移{n}。",
+        "adds": "增加{n}点{resource}。",
+        "removes": "减少{n}点{resource}。"
+      }
+    },
+    "GambitModEffect": {
+      "summary": "清除守望者的战技积累。"
+    },
+    "AnalyzeSkillEffect": {
+      "summary": "揭示目标的优势与弱点。"
+    },
+    "InstantThreatEffect": {
+      "summary": "一次性改变仇恨。",
+      "facts": {
+        "0": {
+          "thisOneMakesTheEnemy": "这会让敌人更想攻击你。"
+        },
+        "1": {
+          "thisOneMakesTheEnemy": "这会让敌人更不想攻击你。"
+        }
+      }
+    },
+    "ThreatOverTimeEffect": {
+      "summary": "生效期间定期改变仇恨。"
+    },
+    "AICallForHelpEffect": {
+      "summary": "召唤其他生物加入战斗。"
+    },
+    "AIForceAttackEffect": {
+      "summary": "迫使敌人攻击施法者。"
+    },
+    "AIRunAwayEffect": {
+      "summary": "使生物停止战斗并逃跑。"
+    },
+    "AITauntEffect": {
+      "summary": "嘲讽敌人，使其攻击施法者。"
+    },
+    "AIThreatTransferEffect": {
+      "summary": "在施法者和目标之间转移仇恨。",
+      "facts": {
+        "0": {
+          "takesThreat": "它夺取目标{pct}的仇恨并转给你。",
+          "givesThreat": "它把你{pct}的仇恨转给目标。"
+        }
+      }
+    },
+    "AIZeroOutThreatEffect": {
+      "summary": "清空生物的仇恨列表。"
+    },
+    "AIZeroOutThreatForTargetEffect": {
+      "summary": "清除生物与某一名对手之间的仇恨。"
+    }
+  }
+}

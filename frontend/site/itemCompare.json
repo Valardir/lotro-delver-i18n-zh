@@ -1,0 +1,19 @@
+{
+  "buttonBack": "返回",
+  "buttonSearch": "搜索物品",
+  "cardTitleNoItems": "没有可比较的物品",
+  "cardDescriptionNoItems": "你还没有添加任何要比较的物品。先去搜索想要比较的物品吧。",
+  "searchButton": "搜索物品",
+  "adjustButton": "调整",
+  "adjustSheetTitle": "调整物品",
+  "adjustSheetDescription": "调整你想要比较的物品。",
+  "levelPrefix": "等级",
+  "deleteButton": "删除",
+  "purgeAllButton": "全部清除",
+  "compareTitle": "比较",
+  "confirmAddDuplicate": "该物品已被选中，确定要再次添加吗？",
+  "compareSelectedItems": "比较所选物品",
+  "selectToCompare": "选择以比较",
+  "compareWithSelected": "与所选物品比较",
+  "clearItems": "清空物品"
+}

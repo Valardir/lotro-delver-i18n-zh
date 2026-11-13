@@ -1,0 +1,26 @@
+{
+  "profileTitle": "用户资料",
+  "avatarAlt": "用户头像",
+  "discordLabel": "Discord",
+  "bioTitle": "简介",
+  "mainServerTitle": "主要服务器",
+  "kinshipTitle": "家族",
+  "interestsTitle": "兴趣",
+  "charactersTitle": "角色",
+  "noPublicCharacters": "没有公开的角色。",
+  "showAllCharactersPrefix": "显示全部角色",
+  "latestBuildsBy": "最新配装，作者：",
+  "showAllBuildsPrefix": "显示全部配装",
+  "latestGuidesBy": "最新攻略，作者：",
+  "showAllGuidesPrefix": "显示全部攻略",
+  "guidesBy": "攻略，作者：",
+  "reportUserButton": "举报用户",
+  "characterCard": {
+    "levelPrefix": "等级",
+    "pvpRankPrefix": "PvP 军衔",
+    "serverPrefix": "服务器",
+    "kinshipPrefix": "家族"
+  },
+  "buildsPageTitlePrefix": "全部配装，作者：",
+  "backToProfile": "返回用户资料"
+}

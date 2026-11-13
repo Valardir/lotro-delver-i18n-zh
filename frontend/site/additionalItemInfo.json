@@ -1,0 +1,13 @@
+{
+  "cosmeticsTitleFor": "外观物品：",
+  "cosmeticsDescription": "浏览与《指环王 Online》中{itemName}外观相同的物品。",
+  "similarItemsTitleFor": "相似物品：",
+  "similarItemsDescription": "发现与《指环王 Online》中{itemName}相似的物品。",
+  "detailsAboutItem": "《指环王 Online》中{itemName}的详细信息。",
+  "cosmeticsTitle": "外观物品",
+  "similarItemsTitle": "相似物品",
+  "itemsShareAppearance": "以下物品与{item}外观相同：",
+  "itemsMightBeInteresting": "以下物品与{item}相似：",
+  "noCosmeticInfoFound": "未找到外观信息。",
+  "noSimilarItemsFound": "未找到相似物品。"
+}

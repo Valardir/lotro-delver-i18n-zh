@@ -1,0 +1,135 @@
+{
+  "overTimeLead": {
+    "withNoTimeLimitUntil": "，没有时间限制，直到被某种效果移除",
+    "timing": {
+      "onLandThenEvery": "生效时立即触发，之后每{every}触发一次",
+      "everyInterval": "每{every}一次"
+    },
+    "noTimeLimitUntilOutOfCombat": "，没有时间限制：只有在你脱离战斗{seconds}秒后才会停止",
+    "forTotal": "，持续{total}",
+    "orUntilOutOfCombat": "，或直到你脱离战斗{seconds}秒",
+    "sentence": "{what}，{timing}{end}。"
+  },
+  "weaponScaling": {
+    "eachTickGrowsWithYour": "每跳的数值随你的武器伤害或战术等级提高。",
+    "theAmountGrowsWithYour": "数值随你的武器伤害或战术等级提高。"
+  },
+  "weaponDamageType": {
+    "itTakesItsDamageType": "它的伤害类型取决于所使用的武器。"
+  },
+  "VITAL_CLASSES": {
+    "InstantVitalEffect": {
+      "summary": "立即对士气或能量造成伤害或恢复。",
+      "lead": {
+        "asAShareOfThe": "，按最大值的百分比计算"
+      }
+    },
+    "VitalOverTimeEffect": {
+      "summary": "生效期间定期对士气或能量造成伤害或恢复。"
+    },
+    "VitalTransferEffect": {
+      "summary": "从目标身上吸取士气或能量并转给施法者。",
+      "facts": {
+        "0": {
+          "youNeverGainMoreThan": "你获得的数值不会超过吸取的数值。"
+        },
+        "1": {
+          "itCannotDefeatTheTarget": "它不会击败目标。"
+        }
+      }
+    },
+    "ReactiveVitalEffect": {
+      "summary": "携带者受到攻击时作出反应，吸收、反弹或施加效果。",
+      "facts": {
+        "0": {
+          "itEndsAfterItTriggers": "触发一次后即结束。"
+        },
+        "1": {
+          "onlyDirectHitsTriggerIt": "只有直接攻击会触发它，持续伤害不会。"
+        },
+        "2": {
+          "onlyDamageFromWhoeverApplied": "只有来自施加者的伤害才会触发它。"
+        }
+      }
+    },
+    "RedirectVitalEffect": {
+      "summary": "将携带者受到的部分伤害转移给他人。",
+      "facts": {
+        "0": {
+          "healingGoesElsewhere": "你受到的治疗中有{pct}转给了他人。",
+          "damageRedirected": "你受到的伤害中有{pct}被转移。"
+        }
+      }
+    },
+    "TransformVitalEffect": {
+      "summary": "将携带者受到的士气伤害转化为能量伤害。",
+      "facts": {
+        "0": {
+          "itEndsWhenYourPower": "你的能量耗尽时它就会结束。"
+        }
+      }
+    },
+    "VitalThresholdEffect": {
+      "summary": "携带者的士气越过设定的百分比时施加效果。",
+      "facts": {
+        "itAlsoAffectsTheAttacker": "它同样会影响攻击者。",
+        "triggersAbove": "你的士气高于{pct}时触发。",
+        "triggersBelow": "你的士气低于{pct}时触发。",
+        "triggersAtMostEvery": "每{time}最多触发一次。"
+      }
+    },
+    "BubbleEffect": {
+      "summary": "用临时士气吸收伤害，直到耗尽或过期。",
+      "facts": {
+        "0": {
+          "worthOfMaximum": "它相当于你最大{vital}的{pct}。"
+        }
+      }
+    },
+    "ReviveEffect": {
+      "summary": "复活被击败的角色。"
+    },
+    "ReviveOnDefeatEffect": {
+      "summary": "生效期间，携带者被击败时自动复活。"
+    },
+    "DefeatBlockSelfReviveEffect": {
+      "summary": "生效期间阻止你再次自我复活。"
+    },
+    "DistantBattleDamageEffect": {
+      "summary": "对大型战斗中的军队阵型造成伤害。"
+    },
+    "SmitePlayerEffect": {
+      "summary": "立即击败目标。"
+    },
+    "InstantFellowshipEffect": {
+      "summary": "立即对目标及附近的护戒队成员施加其效果。",
+      "facts": {
+        "0": {
+          "itReachesTheWholeRaid": "它会作用于整个团队，而不仅是护戒队。"
+        },
+        "1": {
+          "petsAreIncluded": "宠物也包括在内。"
+        },
+        "2": {
+          "theTargetItselfIsNot": "目标本身不受影响，只影响其护戒队。"
+        },
+        "3": {
+          "affectsAtMost": "最多影响{max}名成员。"
+        }
+      }
+    }
+  },
+  "change": {
+    "dealsTypeDamage": "造成{type}伤害",
+    "dealsTypeDamageNow": "立即造成{type}伤害",
+    "dealsDamage": "造成伤害",
+    "dealsDamageNow": "立即造成伤害",
+    "drains": "吸取{vital}",
+    "drainsNow": "立即吸取{vital}",
+    "restores": "恢复{vital}",
+    "restoresNow": "立即恢复{vital}"
+  },
+  "critical": {
+    "criticalTimesAsStrong": "暴击时效果为{x}倍。"
+  }
+}

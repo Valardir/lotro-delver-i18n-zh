@@ -1,0 +1,18 @@
+{
+  "signIn": "登录",
+  "signUp": "注册",
+  "signedInAs": "你当前登录的账户：",
+  "myStuff": "我的内容",
+  "profile": "个人资料",
+  "builds": "配装",
+  "characters": "角色",
+  "accountSettings": "账户设置",
+  "profileSettings": "个人资料设置",
+  "logOut": "退出登录",
+  "greeting": {
+    "hello": "你好",
+    "goodMorning": "早上好",
+    "goodAfternoon": "下午好",
+    "goodEvening": "晚上好"
+  }
+}

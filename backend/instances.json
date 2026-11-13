@@ -1,0 +1,16 @@
+{
+  "planner": {
+    "pull": "战斗开始",
+    "health": "生命值为{v}%时",
+    "death": "死亡时",
+    "spawn": "出现时",
+    "spawns": "生成{name}",
+    "spawns_n": "生成{n}个{name}",
+    "sep": "；"
+  },
+  "nameJoiners": {
+    "separator": "、",
+    "and": "和",
+    "or": "或"
+  }
+}

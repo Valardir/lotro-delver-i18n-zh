@@ -1,0 +1,10 @@
+{
+  "userNotAuthenticated": "用户未登录",
+  "invalidUsernameFormat": "用户名格式无效。只能使用字母、数字、下划线和连字符，长度为3到20个字符。",
+  "usernameAlreadyTaken": "该用户名已被占用，请换一个。",
+  "accountUpdateSuccess": "账户已更新。",
+  "accountUpdateError": "更新账户失败，请重试。",
+  "passkeyDeleteError": "删除通行密钥失败",
+  "passkeyRemoveSuccess": "通行密钥已移除",
+  "passkeyRemoveError": "移除通行密钥失败"
+}

@@ -1,0 +1,20 @@
+{
+  "termsTitle": "请接受我们的服务条款",
+  "termsBody": "要继续使用你的账户，请阅读并接受最新的服务条款。",
+  "readTerms": "阅读服务条款",
+  "accept": "接受",
+  "signOut": "退出登录",
+  "disagree": "不同意？你可以通过支持中心申请删除账户。",
+  "termsBar": "请接受最新的服务条款，以继续使用你的账户。",
+  "upcoming": "我们的服务条款将于{date}变更。",
+  "readNew": "阅读新版本",
+  "privacyNotice": "我们更新了隐私政策。",
+  "read": "阅读",
+  "changesTitle": "变更内容",
+  "earlierChanges": "更早的变更",
+  "allChanges": "全部变更",
+  "termsChangesIntro": "自你上次接受以来的变更：",
+  "gotIt": "知道了",
+  "dismiss": "关闭",
+  "failed": "操作失败，请重试。"
+}

@@ -1,0 +1,20 @@
+{
+  "mapKinds": {
+    "resource": "资源",
+    "crop": "可采集物",
+    "quest": "任务",
+    "npc": "NPC",
+    "monster": "怪物",
+    "critter": "动物",
+    "chest": "宝箱",
+    "landmark": "地标",
+    "milestone": "里程碑",
+    "portal": "传送门",
+    "note": "地图备注",
+    "area": "区域",
+    "dungeon": "地下城"
+  },
+  "moreMaps": {
+    "moreMaps": "另有{count}张地图"
+  }
+}

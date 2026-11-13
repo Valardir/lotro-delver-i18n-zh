@@ -1,0 +1,12 @@
+{
+  "parametersTitle": "参数",
+  "parametersDescription": "为物品手动设置参数。",
+  "itemLevelLabel": "物品等级",
+  "playerLevelLabel": "玩家等级",
+  "setGlobalPlayerLevel": "设置全局玩家等级",
+  "automatedScalingMode": "自动缩放模式",
+  "loadStatsButton": "加载属性",
+  "levelRangePrefix": "物品等级1 -",
+  "levelRangeOr": "或角色等级1 -",
+  "levelRangeSuffix": ""
+}

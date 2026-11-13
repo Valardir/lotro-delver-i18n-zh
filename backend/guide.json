@@ -1,0 +1,507 @@
+{
+  "text": {
+    "and": "和",
+    "or": "或",
+    "counted": "{n}{noun}",
+    "sep": "、",
+    "colon": "：",
+    "dot": " · ",
+    "end": "。",
+    "space": "",
+    "w_before": "战斗前",
+    "w_enter": "进入时",
+    "w_arrive": {
+      "other": "{subject}到达"
+    },
+    "w_arrive_any": "到达时",
+    "w_tripped": "靠近时",
+    "w_pull": "开怪",
+    "w_morale_caption": "士气",
+    "w_once": "仅限战斗中，只触发一次",
+    "w_stage": "第{n}阶段",
+    "w_every": "每{n}",
+    "w_every_range": "每{a}–{b}",
+    "w_timer_any": "定时触发",
+    "w_after": "{n}后",
+    "w_after_any": "短暂延迟后",
+    "w_death": {
+      "other": "{subject}死亡"
+    },
+    "w_death_any": "其中一个死亡时",
+    "w_all_dead": "全部被击败时",
+    "w_add_death": "小怪死亡时",
+    "w_wave_cleared": "这波敌人被击败时",
+    "w_kills": {
+      "other": "击杀{n}/{max}后"
+    },
+    "w_counter": "达到{n}/{max}时",
+    "w_counter_any": "计数器满时",
+    "w_random": "随机（{n}选一）",
+    "w_random_any": "随机",
+    "w_always": "总是",
+    "w_used": "使用时",
+    "w_world": "副本事件触发时",
+    "w_spawn": {
+      "other": "{subject}出现"
+    },
+    "w_spawn_any": "出现时",
+    "w_beaten": {
+      "other": "{subject}被击败"
+    },
+    "w_combat_end": "战斗结束时",
+    "w_wipe": "团灭时",
+    "w_after_fight": "战斗结束后",
+    "w_server": "收到战斗信号时",
+    "w_server_event": "由游戏服务器触发",
+    "w_repeat": "可重复",
+    "p_pull": "开怪时",
+    "p_morale": "{n}时",
+    "p_stage": "第{n}阶段时",
+    "p_combat_end": "结束时",
+    "v_says": {
+      "other": "{subject}说话"
+    },
+    "v_announces": "屏幕提示：{quote}",
+    "v_stage": {
+      "other": "{subject}进入第{n}阶段"
+    },
+    "stage_begins": "第{n}阶段开始",
+    "v_turns_hostile": {
+      "other": "{subject}转为敌对"
+    },
+    "v_turns_friendly": {
+      "other": "{subject}不再敌对"
+    },
+    "v_stops_fighting": {
+      "other": "{subject}停止战斗"
+    },
+    "v_stops_fighting_goes_on": {
+      "other": "{subject}停止战斗；战斗继续"
+    },
+    "v_becomes": {
+      "other": "{subject}变为新形态：{object}"
+    },
+    "v_becomes_any": {
+      "other": "{subject}改变形态"
+    },
+    "v_summons": {
+      "other": "{subject}召唤：{object}"
+    },
+    "v_spawns": {
+      "other": "{subject}出现"
+    },
+    "v_spawns@wave": {
+      "other": "{subject}开始"
+    },
+    "v_despawns": {
+      "other": "{subject}离开"
+    },
+    "v_resets": {
+      "other": "{subject}重置"
+    },
+    "fight_resets": "战斗重置",
+    "v_opens": {
+      "other": "{subject}打开"
+    },
+    "v_closes": {
+      "other": "{subject}关闭"
+    },
+    "v_locks": {
+      "other": "{subject}锁上"
+    },
+    "v_unlocks": {
+      "other": "{subject}解锁"
+    },
+    "v_seals": {
+      "other": "{subject}被封死"
+    },
+    "v_turns_on": {
+      "other": "{subject}启动"
+    },
+    "v_turns_off": {
+      "other": "{subject}停止"
+    },
+    "v_turns_on@wall": {
+      "other": "{subject}亮起"
+    },
+    "v_turns_off@wall": {
+      "other": "{subject}熄灭"
+    },
+    "v_arms": {
+      "other": "{subject}被激活"
+    },
+    "v_disarms": {
+      "other": "{subject}被解除"
+    },
+    "v_counts": {
+      "other": "{subject}增加"
+    },
+    "counter_up": "计数器增加",
+    "fight_done": "战斗记为完成",
+    "raid_lock": "团队锁已设置",
+    "raid_lock_tail": "团队锁已设置",
+    "v_drops": {
+      "other": "{subject}出现"
+    },
+    "v_applies": {
+      "other": "{subject}施加：{object}"
+    },
+    "v_applies_any": {
+      "other": "{subject}施加了一个效果"
+    },
+    "x_applies": "生效：{object}",
+    "v_removes": {
+      "other": "{subject}移除：{object}"
+    },
+    "v_removes_any": {
+      "other": "{subject}移除了一个效果"
+    },
+    "x_removes": "结束：{object}",
+    "v_gains": {
+      "other": "{subject}获得：{object}"
+    },
+    "v_gains_any": {
+      "other": "{subject}获得了一个效果"
+    },
+    "v_loses": {
+      "other": "{subject}失去：{object}"
+    },
+    "v_loses_any": {
+      "other": "{subject}失去了一个效果"
+    },
+    "v_shows_fx": "{subject}：播放视觉效果",
+    "visual": "播放视觉效果",
+    "v_walks_to": {
+      "other": "{subject}走向：{object}"
+    },
+    "v_walks_to_any": {
+      "other": "{subject}走开"
+    },
+    "v_runs_home": {
+      "other": "{subject}返回起点"
+    },
+    "v_follows": {
+      "other": "{subject}跟随：{object}"
+    },
+    "v_follows_any": {
+      "other": "{subject}跟随前进"
+    },
+    "v_dies": {
+      "other": "{subject}死亡"
+    },
+    "v_disappears": {
+      "other": "{subject}消失"
+    },
+    "v_fades": {
+      "other": "{subject}渐渐消失"
+    },
+    "d_after_delay": "短暂延迟后：",
+    "d_after_walk": "走动一段距离后：",
+    "d_after_scene": "过场结束后：",
+    "d_after_sec": "{n}后：",
+    "s_every": "每{n}",
+    "s_every_range": "每{a}–{b}",
+    "s_repeats": "可重复",
+    "s_unless": "取消条件：{sentence}",
+    "c_tier": "难度{t}",
+    "c_tier_up": "难度{t}及以上",
+    "c_tier_range": "难度{a}–{b}",
+    "c_tiers": "难度{list}",
+    "c_solo": "单人",
+    "c_solo_duo": "单人或双人",
+    "c_not_solo_duo": "三人及以上队伍",
+    "c_players": {
+      "other": "{list}人队伍"
+    },
+    "c_hard": "困难模式",
+    "c_kills": {
+      "other": "击杀{n}/{max}后"
+    },
+    "c_counter": "达到{n}/{max}时",
+    "c_random": "{n}选一",
+    "c_always": "总是",
+    "c_world": "由副本事件设定",
+    "c_level": "等级{a}–{b}",
+    "c_level_one": "等级{n}",
+    "e_start": "从一开始",
+    "e_morale": "士气{n}起",
+    "e_arrival": "到达时",
+    "e_arrival_at": "到达时 · {place}",
+    "e_signal": "收到战斗信号时",
+    "e_tier": "{tiers}，由队伍选择",
+    "e_server": "由战斗设定；游戏数据未说明时机",
+    "e_after": "{cause}之后",
+    "e_after_for": "{cause}之后持续{n}",
+    "e_while_in": "站在{cause}中时",
+    "e_after_in": "{cause}之后（{n}）",
+    "e_active": "{cause}生效期间",
+    "w_enrage": "{cause}：{time}后，伤害×{m}",
+    "w_enrage_plain": "{time}后激怒：伤害×{m}",
+    "w_summon": "召唤：{monster} · {skill}",
+    "w_summon_fact": "召唤：{monster}",
+    "g_bosses": {
+      "other": "{n}个首领"
+    },
+    "g_stages": {
+      "other": "{n}个阶段"
+    },
+    "g_chests": {
+      "other": "{n}个宝箱"
+    },
+    "g_hazards": {
+      "other": "{n}处危险"
+    },
+    "g_adds": "有小怪加入",
+    "g_hard": "困难模式",
+    "g_enrage": "{time}后激怒",
+    "g_enrage_tier": "难度{t}下{time}后激怒",
+    "u_min": "{n}分钟",
+    "g_tier_only": "仅限难度{t}",
+    "g_tiers_only": "仅限难度{a}–{b}",
+    "g_morale": "士气×{m}",
+    "g_damage": "伤害×{d}",
+    "g_tier_colon": "难度{t}：{list}",
+    "b_stages_at": {
+      "other": "{n}个阶段，分别在士气{list}时切换"
+    },
+    "b_stages_unknown": {
+      "other": "{n}个阶段；游戏数据未说明其开始或切换的时机"
+    },
+    "b_tier_adds": {
+      "other": "难度{t}增加{n}个技能：{list}"
+    },
+    "b_tier_each": "难度{t}：每个阶段增加一个技能：{list}",
+    "i_pull_group": "怪群",
+    "i_ambush": "伏击",
+    "i_patrol": "巡逻",
+    "i_side_event": "事件",
+    "i_puzzle": "谜题",
+    "i_travel": "前进路线",
+    "i_ambient": "危险",
+    "i_treasure": "宝藏",
+    "i_wing_objective": "区域事迹",
+    "i_pull_groups": {
+      "other": "{n}个怪群"
+    },
+    "i_on_the_way": "前往第{n}场战斗的途中",
+    "k_adds": "小怪：",
+    "k_hazards": "危险：",
+    "k_doors": "门：",
+    "k_walls": "墙：",
+    "a_camera_shake": "地面震动",
+    "a_morale_bar_show": "显示士气条：{subject}",
+    "a_morale_bar_hide": "隐藏士气条：{subject}",
+    "a_target_mark": "一名玩家头顶出现目标标记",
+    "a_quest_done": "任务步骤完成",
+    "a_quest_failed": "任务步骤失败",
+    "a_watch_on": "{subject}开始监视该区域",
+    "a_watch_off": "{subject}停止监视该区域",
+    "a_broadcast": "{subject}召集{range}内的所有人",
+    "a_walk_any": "{subject}开始走动",
+    "a_roars": "{subject}咆哮",
+    "a_rages": "{subject}暴怒",
+    "a_taunts": "{subject}嘲讽",
+    "a_laughs": "{subject}大笑",
+    "a_cheers": "{subject}欢呼",
+    "a_points": "{subject}指向某处",
+    "a_beckons": "{subject}招手示意",
+    "a_commands": "{subject}下达命令",
+    "a_charges": "{subject}冲锋",
+    "a_bows": "{subject}鞠躬",
+    "a_salutes": "{subject}敬礼",
+    "a_waves": "{subject}挥手",
+    "a_dances": "{subject}跳舞",
+    "a_kneels": "{subject}跪下",
+    "a_gets_up": "{subject}站起身",
+    "a_sits": "{subject}坐下",
+    "a_lies_down": "{subject}躺下",
+    "a_sleeps": "{subject}睡着了",
+    "a_cowers": "{subject}畏缩",
+    "a_weeps": "{subject}哭泣",
+    "a_collapses": "{subject}倒下",
+    "a_lies_dead": "{subject}倒地身亡",
+    "a_turns_to_stone": "{subject}化为石头",
+    "a_becomes_ghost": "{subject}化为灵体",
+    "a_falls_down": "{subject}摔倒在地",
+    "a_blows_horn": "{subject}吹响号角",
+    "a_drinks": "{subject}喝东西",
+    "a_eats": "{subject}吃东西",
+    "a_picks_up": "{subject}捡起某物",
+    "a_puts_down": "{subject}放下某物",
+    "a_gives": "{subject}递出某物",
+    "a_uses": "{subject}使用某物",
+    "a_attacks": "{subject}发动攻击",
+    "a_casts": "{subject}施放法术",
+    "a_summons": "{subject}开始召唤",
+    "a_heals": "{subject}进行治疗",
+    "a_vanishes": "{subject}渐渐消失",
+    "a_appears": "{subject}出现",
+    "a_leaves": "{subject}离开",
+    "a_takes_off": "{subject}飞上天空",
+    "a_lands": "{subject}降落"
+  },
+  "nouns": {
+    "door": {
+      "indefinite": "一扇门",
+      "definite": "门",
+      "single": "一扇",
+      "tally": "{n}扇",
+      "forms": {
+        "other": "扇门"
+      }
+    },
+    "hazard": {
+      "indefinite": "一处危险",
+      "definite": "危险",
+      "single": "一处",
+      "tally": "{n}处",
+      "forms": {
+        "other": "处危险"
+      }
+    },
+    "wall": {
+      "indefinite": "一道墙",
+      "definite": "墙",
+      "single": "一道",
+      "tally": "{n}道",
+      "forms": {
+        "other": "道墙"
+      }
+    },
+    "wave": {
+      "indefinite": "一波敌人",
+      "definite": "这波敌人",
+      "single": "一波",
+      "tally": "{n}波",
+      "forms": {
+        "other": "波敌人"
+      }
+    },
+    "add": {
+      "indefinite": "一个小怪",
+      "definite": "小怪",
+      "single": "一个",
+      "tally": "{n}个",
+      "forms": {
+        "other": "个小怪"
+      }
+    },
+    "chest": {
+      "indefinite": "一个宝箱",
+      "definite": "宝箱",
+      "single": "一个",
+      "tally": "{n}个",
+      "forms": {
+        "other": "个宝箱"
+      }
+    },
+    "lever": {
+      "indefinite": "一根杠杆",
+      "definite": "杠杆",
+      "single": "一根",
+      "tally": "{n}根",
+      "forms": {
+        "other": "根杠杆"
+      }
+    },
+    "area": {
+      "indefinite": "一个触发区域",
+      "definite": "触发区域",
+      "single": "一个",
+      "tally": "{n}个",
+      "forms": {
+        "other": "个触发区域"
+      }
+    },
+    "meter": {
+      "indefinite": "一个计量条",
+      "definite": "计量条",
+      "single": "一个",
+      "tally": "{n}个",
+      "forms": {
+        "other": "个计量条"
+      }
+    },
+    "counter": {
+      "indefinite": "一个计数器",
+      "definite": "计数器",
+      "single": "一个",
+      "tally": "{n}个",
+      "forms": {
+        "other": "个计数器"
+      }
+    },
+    "object": {
+      "indefinite": "一个物体",
+      "definite": "物体",
+      "single": "一个",
+      "tally": "{n}个",
+      "forms": {
+        "other": "个物体"
+      }
+    },
+    "portal": {
+      "indefinite": "一个传送门",
+      "definite": "传送门",
+      "single": "一个",
+      "tally": "{n}个",
+      "forms": {
+        "other": "个传送门"
+      }
+    },
+    "effect": {
+      "indefinite": "一个效果",
+      "definite": "效果",
+      "single": "一个",
+      "tally": "{n}个",
+      "forms": {
+        "other": "个效果"
+      }
+    },
+    "boss": {
+      "indefinite": "一个首领",
+      "definite": "首领",
+      "single": "一个",
+      "tally": "{n}个",
+      "forms": {
+        "other": "个首领"
+      }
+    },
+    "npc": {
+      "indefinite": "一名 NPC",
+      "definite": "该 NPC",
+      "single": "一名",
+      "tally": "{n}名",
+      "forms": {
+        "other": "名 NPC"
+      }
+    }
+  },
+  "phase5": {
+    "x_pull_n": {
+      "other": "{n}只怪物一同进攻"
+    },
+    "x_pull_list": {
+      "other": "{n}只怪物一同进攻：{list}"
+    },
+    "x_pull_among": {
+      "other": "{n}只怪物一同进攻，包括：{list}"
+    },
+    "x_pull_area": "{size}范围内的怪物会被一同引来",
+    "x_pull_stealth": "潜行无效",
+    "x_pull_los": "需要清晰的视线",
+    "x_req_key": "需要钥匙：{list}",
+    "x_req_class": "仅限：{list}",
+    "x_req_quest_done": "需要已完成以下任务：{list}",
+    "x_req_quest_open": "需要以下任务正在进行：{list}",
+    "x_req_quest_other": "取决于任务：{list}",
+    "x_req_quest_any": "需要以下任务之一：{list}",
+    "x_req_lock": "与第{n}场战斗的团队锁关联",
+    "x_req_lock_any": "与团队锁关联",
+    "x_req_induction": "{title}{n}",
+    "x_req_interrupt": "受到攻击时会被打断",
+    "x_wave_cleared": "上一波被击败{n}后，下一波到来",
+    "x_wave_activated": "上一波开始{n}后，下一波到来",
+    "k_adds_soft": "可能的小怪："
+  }
+}

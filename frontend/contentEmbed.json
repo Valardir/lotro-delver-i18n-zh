@@ -1,0 +1,11 @@
+{
+  "title": "嵌入游戏内容",
+  "placeholder": "按名称或 ID 搜索，或粘贴链接",
+  "hint": "请输入至少2个字符、一个 ID 或 Lotro Delver 链接。",
+  "loading": "搜索中...",
+  "empty": "没有找到“{query}”相关结果。",
+  "error": "搜索失败，请重试。",
+  "itemLevel": "物品等级",
+  "traitRank": "等级",
+  "playerLevel": "角色等级"
+}

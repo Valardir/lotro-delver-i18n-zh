@@ -1,0 +1,85 @@
+{
+  "landing": {
+    "title": "特性探索",
+    "description": "探索《指环王 Online》中的特性",
+    "searchButton": "搜索特性",
+    "racialTraitsButton": "种族特性",
+    "classTraitsButton": "职业特性",
+    "virtueTraitsButton": "美德特性",
+    "statTomesButton": "属性典籍",
+    "survivalInstinctsButton": "生存本能"
+  },
+  "levelPrefix": "等级",
+  "race": {
+    "title": "种族特性",
+    "subTitle": "探索 LOTRO 中各种族专属的特性",
+    "info": {
+      "p1": "《指环王 Online》中的种族特性与你的血统相关联，能以多种方式为角色带来优势。这些特性根据等级或已完成的任务/事迹授予。我们将其分为永久生效的特性（被动）和可装备的特性（主动）。每个种族各有九个，其中最多可同时启用五个。"
+    },
+    "titleSuffix": "特性",
+    "error": {
+      "loadRaceInfo": "加载种族信息失败"
+    },
+    "passive": {
+      "title": "被动种族特性",
+      "error": "加载被动特性失败"
+    },
+    "earnable": {
+      "title": "可获得的种族特性",
+      "error": "加载可获得特性失败"
+    }
+  },
+  "class": {
+    "title": "职业特性",
+    "subTitle": "探索 LOTRO 中各职业专属的特性",
+    "info": {
+      "p1": "《指环王 Online》中的职业特性为你的角色提供永久增强，可通过升级解锁，或由特定物品授予。特性系统是角色成长的核心，特性可以授予新技能或战斗优势，以主动或被动的方式生效。特性的一大来源是各职业独有的职业特性系统。要使用特性，你需要在达到2级后通过特性树面板（按“J”键）装备它们。"
+    },
+    "titleSuffix": "特性",
+    "sectionTitle": "职业特性",
+    "traitTreeButton": "特性树特性",
+    "otherNature": "其他",
+    "error": {
+      "loadClassInfo": "加载职业信息失败",
+      "loadTraits": "加载特性失败"
+    }
+  },
+  "tomes": {
+    "title": "属性典籍特性",
+    "info": {
+      "p1": "属性典籍可永久提升角色的五项基础主属性（敏捷、信念、力量、活力和意志）。每本典籍必须按顺序使用（等级1、2、3等），其效果会显示在角色的被动技能面板的“属性增强”下。",
+      "p2": "每项属性都有各自的成长路线，让你可以根据职业和玩法来定制角色的成长。典籍的使用有等级限制，随着角色成长会解锁更高等级。"
+    },
+    "error": "加载典籍特性失败"
+  },
+  "virtuesManager": {
+    "playerLevelLabel": "玩家等级：",
+    "globalRankLabel": "全局等级：",
+    "loading": "正在加载美德…",
+    "maxAllButton": "全部美德升至最高",
+    "setZeroButton": "将美德设为0",
+    "virtuePanelAlt": "美德面板背景",
+    "virtueBackgroundAlt": "美德背景",
+    "offensiveVirtueAlt": "进攻美德图标（剑）",
+    "defensiveVirtueAlt": "防御美德图标（盾）",
+    "error": {
+      "fetchMaxRank": "获取美德最高等级时出错：",
+      "fetchVirtueData": "获取美德数据失败"
+    }
+  },
+  "virtues": {
+    "pageTitle": "美德",
+    "mobileUnavailable": {
+      "title": "移动端暂不可用",
+      "description": "美德功能针对较大的屏幕进行了优化，请使用台式机或笔记本电脑访问此功能。"
+    }
+  },
+  "survivalInstincts": {
+    "pageTitle": "生存本能",
+    "notSaved": "你可以随意尝试等级和槽位：此页面上的任何内容都不会被保存。如需保留所选内容，请在配装生成器中进行设置。",
+    "mobileUnavailable": {
+      "title": "移动端暂不可用",
+      "description": "生存本能功能针对较大的屏幕进行了优化，请使用台式机或笔记本电脑访问此功能。"
+    }
+  }
+}

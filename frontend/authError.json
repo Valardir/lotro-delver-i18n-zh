@@ -1,0 +1,9 @@
+{
+  "bannedTitle": "此账户已被封禁",
+  "bannedBody": "你无法登录，因为此账户已被 Lotro Delver 封禁。如果你认为这是误判，请在我们的 Discord 服务器联系支持。",
+  "accountNotLinkedTitle": "账户未关联",
+  "accountNotLinkedBody": "这个 Discord 或 Google 账户尚未关联到你的 Lotro Delver 账户。请先用之前的方式登录，再到账户设置中进行关联。",
+  "genericTitle": "登录失败",
+  "genericBody": "登录时出了点问题，请重试。如果问题反复出现，我们可以帮你。",
+  "back": "返回登录"
+}

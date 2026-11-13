@@ -1,0 +1,22 @@
+{
+  "cardTitle": "创建举报",
+  "cardDescription": "请提供举报的详细信息。",
+  "reasonLabel": "举报原因",
+  "reasonPlaceholder": "选择原因",
+  "subjectLabel": "主题",
+  "subjectPlaceholder": "简要概述问题",
+  "descriptionLabel": "描述",
+  "descriptionPlaceholder": "请提供有关该问题的更多详情",
+  "submitButton": "提交举报",
+  "submittingButton": "提交中…",
+  "successMessage": "举报已成功提交。工单编号：{ref}",
+  "errorsHeader": "错误：",
+  "options": {
+    "inappropriate": "不当内容",
+    "spam": "垃圾信息",
+    "harassment": "骚扰",
+    "misinformation": "虚假信息",
+    "other": "其他"
+  },
+  "buttonTextBuild": "举报此配装"
+}

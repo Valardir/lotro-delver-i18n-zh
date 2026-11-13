@@ -1,0 +1,32 @@
+{
+  "text": {
+    "around_damage": "对自身周围的所有人造成{damage}伤害",
+    "around_target_damage": "对目标及其附近的所有人造成{damage}伤害",
+    "donut_damage": "对自身周围环形区域内的所有人造成{damage}伤害",
+    "cone_damage": "对自身前方的所有人造成{damage}伤害",
+    "melee_damage": "造成{damage}近战伤害",
+    "ranged_damage": "对{range}内的一个目标造成{damage}伤害",
+    "target_damage": "对目标造成{damage}伤害",
+    "around": "影响自身周围的所有人",
+    "around_target": "影响目标及其附近的所有人",
+    "donut": "影响自身周围环形区域内的所有人",
+    "cone": "影响自身前方的所有人",
+    "ranged": "影响{range}内的一个目标",
+    "target": "影响目标",
+    "self": "对自身：{effects}",
+    "reach": "，距离最远{range}",
+    "radius": "，半径{radius}",
+    "max_targets": "，最多{targets}个目标",
+    "distributed": "，伤害由目标分摊",
+    "induction": "，引导{seconds}后生效",
+    "applies": "；施加：{effects}",
+    "crit": "；暴击时：{effects}",
+    "on_self": "；对自身：{effects}",
+    "and": "和",
+    "sep": "、",
+    "end": "。"
+  },
+  "states": {
+    "enraged": "暴怒时"
+  }
+}

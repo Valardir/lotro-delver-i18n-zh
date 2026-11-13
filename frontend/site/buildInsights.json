@@ -1,0 +1,109 @@
+{
+  "modalTitle": "配装洞察",
+  "modalTooltip": "显示配装洞察/图表",
+  "tabGeneral": "概览",
+  "tabCaps": "属性上限",
+  "tabOrigins": "属性来源",
+  "tabAllStats": "全部配装属性",
+  "tabSockets": "精华与铭文",
+  "sockets": {
+    "essences": "精华",
+    "traceries": "铭文",
+    "open": "空插槽",
+    "fillRate": "已镶嵌",
+    "kinds": "插槽类型",
+    "totals": "提供的加成",
+    "noTotals": "精华或铭文没有提供任何属性",
+    "onlyOpen": "仅显示空插槽",
+    "allFilled": "所有插槽均已镶嵌",
+    "empty": "空插槽",
+    "level": "等级",
+    "none": "已装备的物品都没有精华或铭文插槽",
+    "notCounted": {
+      "essenceInactive": "未计入：在{level}级以上不提供任何加成",
+      "essenceDuplicate": "未计入：已镶嵌同类型的精华"
+    }
+  },
+  "sheet": {
+    "tabStats": "属性",
+    "tabEffects": "效果",
+    "filterPlaceholder": "筛选属性和来源…",
+    "total": "总计",
+    "groups": {
+      "main": "主属性",
+      "vitals": "士气和能量",
+      "offence": "进攻",
+      "defence": "防御",
+      "mitigation": "减伤",
+      "healing": "治疗",
+      "other": "技能和其他",
+      "crafting": "制作",
+      "descriptions": "描述"
+    },
+    "clusters": {
+      "stat": "属性加成",
+      "proc": "触发效果",
+      "reactive": "反应与保护",
+      "overTime": "持续效果",
+      "combo": "连击",
+      "other": "其他"
+    },
+    "sources": {
+      "base": "基础",
+      "derived": "来自属性",
+      "curve": "属性等级",
+      "item": "物品",
+      "essence": "精华",
+      "set": "套装",
+      "classTrait": "职业特性",
+      "race": "种族",
+      "racial": "种族特性",
+      "traitTree": "特性树",
+      "virtueActive": "美德",
+      "virtuePassive": "美德被动",
+      "survivalInstinct": "生存本能",
+      "tome": "属性典籍",
+      "effect": "配装效果",
+      "mood": "希望/恐惧",
+      "pip": "职业资源",
+      "manual": "手动"
+    },
+    "crafts": {
+      "Cook": "厨师",
+      "Farmer": "农夫",
+      "Forester": "伐木工",
+      "Jeweller": "珠宝匠",
+      "Metalsmith": "冶炼师",
+      "Prospector": "勘探师",
+      "Scholar": "学者",
+      "Tailor": "裁缝",
+      "Weaponsmith": "锻造师",
+      "Woodworker": "木工"
+    },
+    "notCounted": "不改变面板上的任何属性",
+    "notExpressed": "未生效：同类型中更强的效果优先",
+    "noEffects": "没有效果",
+    "noMatch": "没有符合筛选条件的内容"
+  },
+  "generalTab": {
+    "title": "配装侧重",
+    "mostFocusedPrefix": "最侧重的属性类别：",
+    "completionLabel": "完成度："
+  },
+  "statClusters": {
+    "offence": "进攻",
+    "criticalAttack": "暴击攻击",
+    "healing": "治疗",
+    "defenceMitigations": "防御（减伤）",
+    "defenceAvoidance": "防御（规避）",
+    "defenceGeneral": "防御（综合）"
+  },
+  "capsTab": {
+    "percentageSymbol": "%"
+  },
+  "originTab": {
+    "showSingleSourceLabel": "显示只有一个来源的属性",
+    "totalPrefix": "总计：",
+    "containsNegative": "（含负值）"
+  }
+}

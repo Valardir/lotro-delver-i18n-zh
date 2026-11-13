@@ -1,0 +1,17 @@
+{
+  "1": {
+    "buildGenerator": "配装生成器",
+    "mapSearch": "地图搜索",
+    "commentsOnBuildsAndGuides": "评论配装和攻略",
+    "writingCommunityGuides": "撰写社区攻略"
+  },
+  "2": {
+    "publishingPublicBuilds": "发布公开配装",
+    "voiceLinesForQuestsAnd": "任务和副本的语音台词",
+    "itemsIn3d": "3D 物品"
+  },
+  "3": {
+    "monstersMountsAndPetsIn": "3D 怪物、坐骑和宠物",
+    "appearances": "外观"
+  }
+}

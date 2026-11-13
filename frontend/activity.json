@@ -1,0 +1,26 @@
+{
+  "activityDictionary": {
+    "recentTitle": "继续上次的浏览",
+    "recentEmpty": "你打开过的物品、任务、配装和其他页面会显示在这里。",
+    "recentPrivacy": "只有你能看到这份列表。",
+    "recentMore": "显示更多",
+    "recentMoreTitle": "你最近浏览的50个页面",
+    "recentMoreLoading": "正在加载你的页面...",
+    "recentMoreError": "无法加载你的页面，请重试。"
+  },
+  "TYPE_LABELS": {
+    "item": "物品",
+    "trait": "特性",
+    "effect": "效果",
+    "skill": "技能",
+    "stat": "属性",
+    "monster": "怪物",
+    "instance": "副本",
+    "quest": "任务",
+    "deed": "事迹",
+    "title": "称号",
+    "build": "配装",
+    "character": "角色",
+    "class": "职业"
+  }
+}

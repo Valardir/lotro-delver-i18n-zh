@@ -1,0 +1,15 @@
+{
+  "pointsAvailablePre": "点数",
+  "pointsAvailablePost": "可用",
+  "pointsSpentPre": "点数",
+  "pointsSpentPost": "已用",
+  "reSpec": "重置专精",
+  "cancel": "取消",
+  "apply": "应用",
+  "comingSoon": "即将推出！",
+  "noSpecPossible": "你无法专精此分支",
+  "skillsEarned": "已获得技能：",
+  "loadingTree": "正在加载特性树…",
+  "summary": "特性树：{points}",
+  "pointsCount": "{count} 点"
+}

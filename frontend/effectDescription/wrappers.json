@@ -1,0 +1,169 @@
+{
+  "AFFECTS": {
+    "0": {
+      "players": "玩家"
+    },
+    "1": {
+      "creatures": "生物"
+    },
+    "2": {
+      "creeps": "怪物玩家"
+    },
+    "3": {
+      "playerPets": "玩家宠物"
+    }
+  },
+  "WRAPPER_CLASSES": {
+    "ApplyOverTimeEffect": {
+      "summary": "生效期间定期施加其他效果。",
+      "facts": {
+        "0": {
+          "appliesEffectsEvery": "它每{interval}施加一次其效果。"
+        },
+        "1": {
+          "someOfItsEffectsAre": "它的部分效果只在开始时施加一次。"
+        }
+      },
+      "lead": {
+        "appliesEvery": "持续期间，每{every}对目标施加{applied}。"
+      }
+    },
+    "AuraEffect": {
+      "summary": "生效期间对范围内的合适角色施加其效果。",
+      "facts": {
+        "itDoesNotAffectWhoever": "它不会影响携带者。",
+        "whoeverCarriesItIsAffected": "携带者也会受到影响。",
+        "affectsNearby": "它会影响附近的{who}。"
+      },
+      "lead": {
+        "auraGives": "一种光环，只要附近的人留在范围内，就给予他们{given}。",
+        "auraGivesWithin": "一种光环，只要附近的人（{within}米内）留在范围内，就给予他们{given}。"
+      }
+    },
+    "AreaEffect": {
+      "summary": "对区域内的每个目标施加一次其效果。",
+      "facts": {
+        "0": {
+          "hitsAtMostTarget": "最多命中{max}个目标。",
+          "hitsAtMostTargets": "最多命中{max}个目标。",
+          "hitsAtMostTargetBonuses": "最多命中{max}个目标，部分加成可以提高该上限。",
+          "hitsAtMostTargetsBonuses": "最多命中{max}个目标，部分加成可以提高该上限。"
+        },
+        "1": {
+          "areaReaches": "其范围可达{range}米。"
+        },
+        "2": {
+          "itDoesNotAffectWhoever": "它不会影响使用者。"
+        }
+      }
+    },
+    "ProcEffect": {
+      "summary": "使用特定技能时可施加效果。",
+      "facts": {
+        "itOnlyTriggersInCombat": "它只在战斗中触发，骑战中不会触发。",
+        "itOnlyTriggersInCombat_2": "它只在战斗中触发。",
+        "itDoesNotTriggerIn": "骑战中它不会触发。",
+        "itReactsToSkillsUsed": "它会对施加在你身上的技能作出反应。",
+        "someOfItsEffectsGo": "它的部分效果会作用于攻击者。",
+        "someOfItsEffectsGo_2": "它的部分效果会作用于技能的目标。"
+      }
+    },
+    "KillProcEffect": {
+      "summary": "在致命一击或携带者被击败时施加效果。",
+      "facts": {
+        "itTriggersWhenYouAre": "你被击败时触发。",
+        "itTriggersWhenYouLand": "你对敌人打出致命一击时触发。",
+        "onlyDefeatingCertainFoesCounts": "只有击败特定敌人才算数。"
+      }
+    },
+    "ComboEffect": {
+      "summary": "根据是否存在某个效果，施加不同的效果。",
+      "facts": {
+        "itLooksForAnyEffect": "它会查找某一类的任何效果。",
+        "itRemovesEveryCopyOf": "它会移除找到的所有该效果。",
+        "itRemovesTheEffectIt": "它会移除找到的效果。",
+        "itCanAlsoGiveWhoever": "它还可以回赠使用者一个效果。",
+        "onlyEffectsAppliedByThe": "只有同一角色施加的效果才算数。",
+        "looksForEffect": "它会查找{looked}。",
+        "looksForEffectOrKind": "它会查找{looked}，或某一类的任何效果。"
+      }
+    },
+    "PersistentComboEffect": {
+      "summary": "只要某个效果存在或不存在，就持续切换效果。",
+      "facts": {
+        "0": {
+          "looksFor": "它会查找{looked}。"
+        }
+      }
+    },
+    "TieredEffect": {
+      "summary": "分阶叠加：每次应用提升一阶。",
+      "facts": {
+        "0": {
+          "hasTiers": "它共有{tiers}阶。"
+        },
+        "1": {
+          "atTheTopTierApplying": "达到最高阶后，再次应用会使目标保持在最高阶。",
+          "atTheTopTierApplying_2": "达到最高阶后，再次应用不会有进一步的效果。"
+        },
+        "2": {
+          "onlyTiersAppliedByThe": "只有同一角色施加的阶才算数，因此每位玩家各自叠加。"
+        }
+      },
+      "lead": {
+        "buildsUpTiers": "{name}分{count}阶叠加：每次应用，目标提升一阶，新的一阶取代旧的一阶。"
+      }
+    },
+    "RandomEffect": {
+      "summary": "从列表中随机选择一个效果施加。",
+      "facts": {
+        "theChosenEffectGoesTo": "选中的效果作用于使用者，而不是目标。",
+        "picksOneOf": "它会从以下效果中选择一个：{items}。",
+        "picksOneOfCount": "它会从{count}个效果中选择一个。"
+      }
+    },
+    "CountdownEffect": {
+      "summary": "到期时施加后续效果。",
+      "facts": {
+        "0": {
+          "itIsOneStepIn": "它是限时序列中的一步：到期后进入下一步。"
+        }
+      },
+      "lead": {
+        "timerWhenItRunsOut": "一个计时器：到期时施加{next}。",
+        "timerAfter": "一个计时器：{after}后施加{next}。"
+      }
+    },
+    "GeneratorPropagationEffect": {
+      "summary": "在大型战斗中将其效果传递给其他人。"
+    },
+    "UnknownClass_3690": {
+      "summary": "内部测试效果，正式游戏中不使用。"
+    },
+    "DispelEffect": {
+      "summary": "移除目标身上的某些效果。",
+      "facts": {
+        "0": {
+          "itAlsoRemovesEffectsOf": "它还会移除某些类型的效果。",
+          "itRemovesEffectsOfCertain": "它会移除某些类型的效果。"
+        },
+        "1": {
+          "removesAtMostEffects": "它最多移除{max}个效果。",
+          "removesAtMostEffect": "它最多移除{max}个效果。"
+        }
+      },
+      "lead": {
+        "removes": "移除目标身上的{removed}。"
+      }
+    },
+    "DispelByResistEffect": {
+      "summary": "治愈某些类型的效果，例如创伤或恐惧。"
+    }
+  },
+  "cooldownSentence": {
+    "triggersAtMostEvery": "每{time}最多触发一次。"
+  },
+  "chanceSentence": {
+    "chanceToTrigger": "它有{pct}的几率触发。"
+  }
+}

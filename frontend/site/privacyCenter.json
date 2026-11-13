@@ -1,0 +1,111 @@
+{
+  "triggerTooltip": "隐私中心",
+  "dialogTitle": "隐私中心",
+  "dialogDescription": "控制公众可以在你的个人资料中看到此角色的哪些内容。",
+  "toastError": "更新隐私设置失败",
+  "accountOverrideActiveNotice": "你的账户隐私中心目前正在覆盖此角色的设置。请通过 /me/characters 页面上的按钮进行管理。",
+  "guestGate": {
+    "title": "登录后查看此角色",
+    "body": "要查看其他用户的角色，你需要先登录。"
+  },
+  "guestSectionNotice": {
+    "title": "登录后查看",
+    "body": "此部分仅对已登录的访客可见。"
+  },
+  "accountCenter": {
+    "triggerLabel": "账户隐私",
+    "dialogTitle": "账户隐私中心",
+    "dialogDescription": "与角色隐私中心相同的设置，但对所有角色全局生效。",
+    "enableTitle": "覆盖所有角色",
+    "enableDescription": "用下方的设置替换每个角色自己的隐私设置（包括现有角色和日后创建的角色），无论各角色自己的隐私中心如何设置，直到你再次将其关闭。",
+    "warning": "目前所有角色各自的隐私设置都已被忽略，改为统一使用下方的设置。关闭此项即可恢复各角色自己的设置。",
+    "toastEnabled": "账户级隐私覆盖已启用",
+    "toastDisabled": "账户级覆盖已清除，各角色的设置重新生效"
+  },
+  "sections": {
+    "showInProfile": {
+      "label": "公开显示角色",
+      "description": "将此角色列在你的个人资料中，并允许通过其直接链接查看。包含基本信息（名称、职业、种族、等级、服务器）。"
+    },
+    "showExtendedMetadata": {
+      "label": "显示扩展信息",
+      "description": "允许访客打开角色的信息面板，查看更多详情。"
+    },
+    "showCurrentBuild": {
+      "label": "显示当前角色配装",
+      "description": "显示此角色实时同步的装备和特性。"
+    },
+    "allowBuildDuplication": {
+      "label": "允许复制角色配装",
+      "description": "允许访客保存此角色当前配装的副本。"
+    },
+    "showMyBuilds": {
+      "label": "显示我的配装",
+      "description": "列出与此角色关联的配装。"
+    },
+    "showPvpBuild": {
+      "label": "显示 PvMP 配装",
+      "description": "显示此角色实时同步的 PvMP 装备和特性。"
+    },
+    "allowPvpBuildDuplication": {
+      "label": "允许复制 PvMP 配装",
+      "description": "允许访客保存此角色当前 PvMP 配装的副本。"
+    },
+    "showPvpStats": {
+      "label": "显示 PvMP 统计",
+      "description": "显示此角色的 PvMP 军衔和伊顿荒原统计数据。"
+    },
+    "showQuestsAndDeeds": {
+      "label": "显示任务与事迹",
+      "description": "显示此角色的任务和事迹进度。"
+    },
+    "showCrafting": {
+      "label": "显示制作",
+      "description": "显示此角色的制作专业和进度。"
+    },
+    "showTitles": {
+      "label": "显示称号",
+      "description": "显示此角色已获得的称号。"
+    },
+    "showReputation": {
+      "label": "显示声望",
+      "description": "显示此角色在各阵营的声望情况。"
+    },
+    "showPortraitFrames": {
+      "label": "显示肖像相框",
+      "description": "显示此角色已解锁的肖像相框图库。"
+    },
+    "showCollections": {
+      "label": "显示收藏",
+      "description": "显示此角色已收集的坐骑、外观宠物、表情、驯马师、鸟类和挂饰。"
+    },
+    "showInventory": {
+      "label": "显示背包",
+      "description": "显示此角色的背包内容。"
+    },
+    "showWallet": {
+      "label": "显示钱包",
+      "description": "显示此角色的货币。"
+    },
+    "showWardrobe": {
+      "label": "显示衣柜",
+      "description": "显示账户的外观衣柜。"
+    },
+    "showVault": {
+      "label": "显示库房",
+      "description": "显示此角色的个人库房。"
+    },
+    "showSharedStorage": {
+      "label": "显示共享仓库",
+      "description": "显示账户的共享仓库。"
+    },
+    "showCarryAlls": {
+      "label": "显示背包扩展袋",
+      "description": "显示账户的背包扩展袋。"
+    },
+    "showHousingChests": {
+      "label": "显示房屋储物箱",
+      "description": "显示账户自己房屋中的储物箱。家族储物箱和其他玩家的储物箱永远不会显示。"
+    }
+  }
+}

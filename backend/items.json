@@ -1,0 +1,8 @@
+{
+  "binding": {
+    "Inventory_BindToAccount": "获取后绑定至账号",
+    "Inventory_BindOnEquip": "装备后绑定",
+    "Inventory_BindOnAcquire": "获取即绑定",
+    "Inventory_BindOnPickup": "拾取绑定"
+  }
+}

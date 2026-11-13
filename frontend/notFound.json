@@ -1,0 +1,12 @@
+{
+  "code": "错误404",
+  "pageTitle": "你走得太远了",
+  "pageBody": "就连甘道夫也不记得这个地方。链接可能已失效，或者页面已被移走。",
+  "userTitle": "未找到用户",
+  "userBody": "Lotro Delver 上没有这个名称的玩家，或者对方的个人资料未公开。",
+  "characterTitle": "未找到角色",
+  "characterBody": "这个角色不存在或未公开。",
+  "home": "返回首页",
+  "back": "返回上一页",
+  "support": "觉得这是个错误？请通过支持中心告诉我们。"
+}

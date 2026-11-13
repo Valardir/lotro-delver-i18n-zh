@@ -1,0 +1,118 @@
+{
+  "RESIST_LABELS": {
+    "Wound": "创伤",
+    "Disease": "疾病",
+    "Fear": "恐惧",
+    "Poison": "毒药",
+    "Corruption": "腐化",
+    "Magic": "法术",
+    "Physical": "物理",
+    "Song": "歌谣",
+    "Cry": "咆哮",
+    "Elemental": "元素",
+    "DreadDispel": "恐惧",
+    "EttenmoorsDispel": "伊顿荒原增益"
+  },
+  "WINNER": {
+    "default": "最强的那个",
+    "newest": "最新的那个",
+    "oldest": "最早的那个",
+    "longestRemaining": "剩余时间最长的那个",
+    "biggerShield": "更大的护盾",
+    "statChange": "对某项属性影响更大的那个"
+  },
+  "WINNERS": {
+    "default": "最强的那几个",
+    "newest": "最新的那几个",
+    "oldest": "最早的那几个"
+  },
+  "stackingRule": {
+    "onlyOneEffectOfThis": "同一目标同一时间只能有一个此类效果：更强的会取代它，更弱的则无法生效。",
+    "itDoesNotStackWith": "它不能与自身叠加：再次应用会取代原有效果，除非正在生效的那个更强。",
+    "upToEffects": "同一目标同一时间最多有{max}个此类效果生效：{winners}生效。",
+    "upToEffectsWait": "同一目标同一时间最多有{max}个此类效果生效：{winners}生效，其余的排队等待。",
+    "onlyOneWorksOthersWait": "同一目标同一时间只有一个此类效果生效：{winner}生效，其余的排队等待，待其结束后接替。",
+    "onlyOneStaysOthersDoNot": "同一目标同一时间只能有一个此类效果：{winner}保留，其余的无法生效。"
+  },
+  "stacking": {
+    "0": {
+      "itDoesNotStackFreely": "它不能与类似效果自由叠加：它们相互竞争，同一时间只有部分生效。"
+    },
+    "eachCasterSEffectsCount": "每个施法者的效果分别计算，因此每位玩家都可以在目标身上有自己的效果。",
+    "more": "另外{rest}个",
+    "sameKind": "同类效果：{items}。"
+  },
+  "resistance": {
+    "0": {
+      "potionsAndSkillsThatCure": "治疗创伤、疾病、恐惧或毒药的药水和技能无法移除它。"
+    },
+    "itCountsAsACorruption": "它算作一种腐化：移除腐化的技能可以将其清除。",
+    "resistanceHelps": "抗性和{cat}抗性都有助于抵抗它。",
+    "countsAsButNotRemovable": "它算作{cat}效果，但即使是移除{cat}效果的效果也无法移除它。",
+    "countsAsAndRemovable": "它算作{cat}效果，因此移除{cat}效果的效果可以将其移除，前提是对其等级而言足够强。"
+  },
+  "lifetime": {
+    "eachPulseIsAnotherChance": "每次脉冲都是又一次抵抗它的机会，抵抗成功会使其提前结束。",
+    "whatItAppliesOnExpiration": "它在到期时施加的效果只有在其自然结束时才会发生：提前结束会阻止它。",
+    "itHasNoTimeLimit": "它没有时间限制，但脱离战斗9秒后就会结束。",
+    "itHasNoTimeLimit_2": "它没有时间限制。",
+    "itAlsoEndsOnceYou": "脱离战斗9秒后它也会结束。",
+    "applyingItAgainWhileIt": "在生效期间再次应用会增加剩余时间。",
+    "itsTimerKeepsRunningIn": "它按现实时间计时，即使你已退出登录也不会暂停。",
+    "beingDefeatedDoesNotRemove": "被击败不会移除它。",
+    "itStaysWhileYouAre": "你被击败期间它会保留，撤退时结束。",
+    "itEndsIfYouLeave": "离开副本时它会结束。",
+    "itEndsWhenYouLog": "退出登录时它会结束。",
+    "itDoesNotShowAn": "它不会在效果栏中显示图标。",
+    "whenItEndsApplies": "结束时，它会施加“{followName}”。",
+    "whenItEndsAppliesInCombat": "结束时，如果你处于战斗中，它会施加“{followName}”。"
+  },
+  "CLASS_NAMES": {
+    "Beorning": "比翁",
+    "Brawler": "拳手",
+    "Burglar": "刺客",
+    "Captain": "旗手",
+    "Champion": "斗士",
+    "Guardian": "盾卫者",
+    "Hunter": "猎人",
+    "Loremaster": "贤者",
+    "Minstrel": "吟游诗人",
+    "Runekeeper": "符文师",
+    "Warden": "守望者",
+    "Corsair": "水手"
+  },
+  "WAR_STEEDS": {
+    "MountedCombat_Light": "轻型战马",
+    "MountedCombat_Medium": "中型战马",
+    "MountedCombat_Heavy": "重型战马"
+  },
+  "chance": {
+    "0": {
+      "itOnlyTakesEffectIn": "它只在怪物扮演中生效。",
+      "itNeverTakesEffectOn": "它不会自行生效：需要先由特性或其他加成赋予几率。",
+      "onlyChance": "它只有{pct}的几率生效。"
+    }
+  },
+  "IMPROVABLE": {
+    "amount": "强度",
+    "duration": "持续时间",
+    "pulses": "脉冲次数",
+    "chance": "生效几率",
+    "critChance": "暴击几率",
+    "critSize": "暴击强度",
+    "cooldown": "冷却时间",
+    "targets": "目标数量",
+    "size": "规模"
+  },
+  "requirements": {
+    "0": {
+      "onlyForClass": "它只对{name}职业有效。",
+      "onlyWhileRiding": "它只在你骑乘{name}时有效。"
+    }
+  },
+  "improvedBy": {
+    "0": {
+      "traitsImprove": "部分特性和其他加成可以提升它的{whats}。"
+    }
+  }
+}

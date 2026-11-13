@@ -1,0 +1,17 @@
+{
+  "title": "设置",
+  "metaDescription": "你的 Lotro Delver 账户、登录、通知和分享设置。",
+  "navLabel": "设置分区",
+  "account": "账户",
+  "accountDescription": "你的公开名称以及账户拥有的权限。",
+  "security": "登录与安全",
+  "securityDescription": "你的邮箱地址、登录方式、通行密钥，以及你在其他设备上的会话。",
+  "notifications": "通知",
+  "notificationsDescription": "哪些内容会显示在站内通知中，哪些还会通过邮件发送。",
+  "notificationsDescriptionSite": "哪些内容会显示在站内通知中。",
+  "openInbox": "打开你的通知",
+  "sharing": "分享",
+  "sharingDescription": "你分享的链接在未登录的用户那里如何打开。",
+  "ai": "AI",
+  "aiDescription": "你自己的 AI 服务商密钥和语音设置。"
+}

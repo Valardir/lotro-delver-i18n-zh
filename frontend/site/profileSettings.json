@@ -1,0 +1,30 @@
+{
+  "cardTitle": "个人资料设置",
+  "cardDescription": "管理你的 Lotro Delver 个人资料",
+  "avatarAlt": "个人资料",
+  "deleteImageConfirm": "确定要删除你的头像吗？",
+  "deleteImageGenericError": "删除头像时出错",
+  "fileSizeError": "文件大小必须小于1MB",
+  "discordUsernameLabel": "Discord 用户名",
+  "mainLotroServerLabel": "你的主要 LOTRO 服务器",
+  "selectServerPlaceholder": "选择服务器",
+  "bioLabel": "简介",
+  "kinshipLabel": "家族",
+  "interestsLabel": "兴趣",
+  "profileUpdateSuccess": "个人资料已更新。",
+  "profileUpdateError": "更新个人资料失败，请重试。",
+  "interests": {
+    "Questing": "任务",
+    "PvMP": "玩家对战怪物",
+    "RP": "角色扮演",
+    "Crafting": "制作",
+    "Housing": "房屋",
+    "Events": "活动",
+    "Music": "音乐",
+    "Fashion": "时装",
+    "LotR Lore": "魔戒设定",
+    "Raiding": "团队副本",
+    "Delvings": "探掘",
+    "Hobbies": "爱好"
+  }
+}

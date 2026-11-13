@@ -1,0 +1,174 @@
+{
+  "DEFENCES": {
+    "0": {
+      "block": "格挡"
+    },
+    "1": {
+      "parry": "招架"
+    },
+    "2": {
+      "evade": "闪避"
+    }
+  },
+  "statFacts": {
+    "0": {
+      "cannotWhileItLasts": "效果持续期间，你无法{actions}。"
+    },
+    "1": {
+      "youCannotMoveWhileIt": "效果持续期间，你无法移动。"
+    },
+    "2": {
+      "youCannotBeDefeatedWhile": "效果持续期间，你不会被击败。"
+    },
+    "3": {
+      "youCannotBeAttackedWhile": "效果持续期间，你不会受到攻击。"
+    },
+    "4": {
+      "itMakesYouImmuneTo": "它使你免疫部分群体控制状态。"
+    },
+    "5": {
+      "itAddsATemporarySkill": "它会在你的快捷栏中添加一个临时技能。"
+    },
+    "6": {
+      "aSetsLineReplacesThat": "标为“设为”的一行会直接替换该属性的数值，而不是在其基础上相加。"
+    }
+  },
+  "STATES": {
+    "Stunned": "被昏迷的目标无法移动或行动，也无法格挡、招架或闪避。伤害不会打断昏迷。",
+    "Dazed": "被眩晕的目标无法移动或行动，也无法格挡、招架或闪避，直到受到伤害而解除眩晕。",
+    "Feared": "被恐惧的玩家无法使用技能，并以一半速度奔跑。攻击会打断恐惧，持续伤害则很少会。被恐惧的生物会逃跑。",
+    "Rooted": "被定身的目标无法移动，但仍可行动。伤害可能使其挣脱。",
+    "KnockedDown": "目标被击倒在地，无法移动或行动。伤害不会解除该状态。",
+    "KnockedOut": "目标被击晕，失去知觉，无法移动或行动。伤害不会解除该状态。",
+    "ConjunctionStunned": "它会开启一次队伍技能：目标昏迷期间，你的护戒队可以发起协同攻击。",
+    "Immune": "它使目标短暂免疫昏迷、击倒、击晕和定身。"
+  },
+  "STATE_VERBS": {
+    "Stunned": "使目标昏迷",
+    "Stunned_Dread": "以恐惧使目标昏迷",
+    "ConjunctionStunned": "使目标昏迷并开启队伍技能",
+    "Dazed": "使目标眩晕",
+    "Feared": "使目标充满恐惧",
+    "Rooted": "将目标定身在原地",
+    "KnockedDown": "击倒目标",
+    "KnockedOut": "击晕目标",
+    "FullDisable": "使目标完全无法动弹",
+    "Kneeling": "迫使目标跪下",
+    "Immune": "使目标短暂免疫群体控制"
+  },
+  "CONTROL_CLASSES": {
+    "PropertyModificationEffect": {
+      "summary": "生效期间修改某些属性。",
+      "lead": {
+        "moreStats": "另外{count}项属性",
+        "debuffOn": "持续期间对{stats}施加减益。",
+        "changes": "持续期间改变{stats}。"
+      }
+    },
+    "MountedEffect": {
+      "summary": "使携带者骑上坐骑。",
+      "facts": {
+        "0": {
+          "itIsAToyMount": "这是一种玩具坐骑，只能携带，不能骑乘。"
+        },
+        "1": {
+          "itIsAWarSteed": "这是用于骑战的战马：它有自己的士气和能量，骑乘时群体控制的运作方式也有所不同。",
+          "everyHitYouTakeWears": "你受到的每次攻击都会削弱坐骑，受到足够多的攻击就会使你坠马。"
+        },
+        "2": {
+          "youCannotMountWhileSwimming": "游泳时，或在不允许使用此类坐骑的地方，你无法上马。"
+        }
+      }
+    },
+    "ProtectionEffect": {
+      "summary": "生效期间使携带者免疫某些效果。",
+      "facts": {
+        "0": {
+          "itAlsoProtectsAgainstWhole": "它还能防御整类效果。"
+        },
+        "1": {
+          "thisAlsoBlocksHelpfulEffects": "这同样会阻挡有益效果。"
+        }
+      },
+      "lead": {
+        "immuneTo": "使携带者免疫{effects}：它们无法生效。"
+      }
+    },
+    "InduceCombatStateEffect": {
+      "summary": "使目标进入昏迷或定身等群体控制状态。",
+      "facts": {
+        "1": {
+          "usingTheSameKindOf": "20秒内对同一目标再次使用同类群体控制，每次的效果都会缩短。"
+        },
+        "2": {
+          "targetsWithCrowdControlReduction": "拥有群体控制减免的目标被控制的时间更短。"
+        },
+        "3": {
+          "againstARiderOnA": "对骑乘战马的骑手，它会改为在一段时间内削弱战马。"
+        }
+      },
+      "lead": {
+        "forDuration": "，持续{duration}"
+      }
+    },
+    "FearEffect": {
+      "summary": "使目标惊慌逃窜。",
+      "facts": {
+        "0": {
+          "youRunFasterThanNormal": "逃跑时你的奔跑速度比平时更快。"
+        },
+        "1": {
+          "youMayRunInAlmost": "你几乎可以朝任何方向奔跑。"
+        }
+      }
+    },
+    "KnockAwayEffect": {
+      "summary": "将目标击飞到空中。",
+      "facts": {
+        "0": {
+          "itPullsTheTargetTowards": "它会把目标拉向来源。",
+          "itKnocksTheTargetBack": "它会把目标击退，远离来源。"
+        },
+        "1": {
+          "theTargetIsThrownUp": "目标被抛向空中。"
+        },
+        "2": {
+          "itMovesTheTargetEven": "即使目标被定身或昏迷，它也能移动目标。"
+        }
+      }
+    },
+    "ImpulseEffect": {
+      "summary": "朝固定方向推动目标。"
+    },
+    "DistractionEffect": {
+      "summary": "短暂吸引走生物的注意力。"
+    },
+    "DismountEffect": {
+      "summary": "将目标从某些坐骑上击落。"
+    },
+    "InterruptInductionEffect": {
+      "summary": "打断目标正在准备的技能。"
+    },
+    "ExitCombatStateEffect": {
+      "summary": "解除目标的某些群体控制状态。"
+    },
+    "EnterChannelingStateEffect": {
+      "summary": "开始一项带进度条的限时活动。"
+    },
+    "ExitChannelingStateEffect": {
+      "summary": "结束某项限时活动。"
+    },
+    "CooldownEffect": {
+      "summary": "缩短某些技能的剩余冷却时间。",
+      "facts": {
+        "0": {
+          "takesOffGroupCooldowns": "它使某些技能组中每个技能的剩余冷却时间减少{time}。",
+          "takesOffSkillCooldowns": "它使某些技能的剩余冷却时间减少{time}。"
+        }
+      }
+    },
+    "SkillResetEffect": {
+      "summary": "重置某些技能的冷却时间。"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "STANCES": {
+    "Aggressive": "主动模式",
+    "Guard": "守护模式",
+    "Passive": "被动模式"
+  },
+  "RECALL_DESTINATIONS": {
+    "PersonalHouse": "它会把你送回你自己的房屋。",
+    "KinshipHouse": "它会把你送到你的家族房屋。",
+    "KinshipMemberHouse": "它会把你送到你选择的家族成员的房屋。",
+    "RallyPoint": "它会把你送到最近的集结点。"
+  },
+  "WORLD_CLASSES": {
+    "AIPetEffect": {
+      "summary": "召唤一个宠物。",
+      "facts": {
+        "0": {
+          "itStaysUntilItIs": "它会一直存在，直到被解散或被击败。"
+        },
+        "1": {
+          "leavesAfter": "{duration}后它会离开。"
+        },
+        "2": {
+          "itDoesNotFight": "它不会战斗。"
+        },
+        "3": {
+          "canCommand": "你可以指挥它。",
+          "canCommandStance": "你可以指挥它，它初始处于{stance}。"
+        },
+        "4": {
+          "itStaysWhereItAppears": "它会留在出现的位置，不会跟随你。"
+        }
+      }
+    },
+    "AIPetDispelByChannelEffect": {
+      "summary": "解散某一类宠物。"
+    },
+    "PetForceAttackEffect": {
+      "summary": "命令宠物攻击目标。"
+    },
+    "PetRecallEffect": {
+      "summary": "召回宠物。"
+    },
+    "GenesisEffect": {
+      "summary": "在世界中创建一个物体或一件物品。",
+      "facts": {
+        "0": {
+          "theItemGoesIntoYour": "物品会放入你的背包。",
+          "theObjectStaysUntilIt": "该物体会一直存在，直到被移除。",
+          "putsInBags": "它会把{quantity}件该物品放入你的背包。"
+        }
+      }
+    },
+    "RecallEffect": {
+      "summary": "将携带者传送到固定的目的地。",
+      "facts": {
+        "itTakesYouToThe": "它会把你送到你设置的营地。",
+        "itTakesYouToA": "它会把你送到你在里程碑设置的家园位置。",
+        "membersAsked": "护戒队成员会被询问是否愿意同行。",
+        "membersAskedRadius": "{radius}米范围内的护戒队成员会被询问是否愿意同行。",
+        "membersAskedTimeout": "护戒队成员会被询问是否愿意同行，他们有{timeout}时间接受。",
+        "membersAskedRadiusTimeout": "{radius}米范围内的护戒队成员会被询问是否愿意同行，他们有{timeout}时间接受。"
+      }
+    },
+    "TravelEffect": {
+      "summary": "将目标移动到固定的地点。",
+      "facts": {
+        "0": {
+          "itTakesYouIntoA": "它会把你送入一个私人副本。",
+          "itTakesYouToA": "它会把你送到开放世界中的某处，离开你所在的任何副本。"
+        },
+        "1": {
+          "enemiesUseItToForce": "敌人用它把你强行送往别处。"
+        }
+      }
+    },
+    "PopulationControlEffect": {
+      "summary": "限制区域内可停留的玩家数量。"
+    },
+    "RunScriptEffect": {
+      "summary": "播放动画、视觉效果、声音或脚本提示。",
+      "facts": {
+        "0": {
+          "itMakesTheTargetPerform": "它会让目标做出一个表情动作。"
+        },
+        "1": {
+          "itPlaysACameraEffect": "它会在你的屏幕上播放镜头效果。"
+        }
+      }
+    },
+    "InvokeTutorialEffect": {
+      "summary": "显示教程提示。"
+    },
+    "ThreateningSkillHintEffect": {
+      "summary": "在短时间内将某些技能标记为对生物有威胁。"
+    },
+    "AgentTrackingEffect": {
+      "summary": "在迷你地图上追踪特定种类的生物。",
+      "facts": {
+        "0": {
+          "itAlsoFindsCreaturesThat": "它还能发现处于潜行中的隐藏生物。"
+        }
+      }
+    },
+    "StorePurchasePromptEffect": {
+      "summary": "显示指环王商店的优惠。"
+    },
+    "TemporaryServiceEffect": {
+      "summary": "授予临时服务，例如前往某个地区的旅行。"
+    },
+    "SendMailEffect": {
+      "summary": "发送一封游戏内信件。",
+      "facts": {
+        "0": {
+          "letterFrom": "这封信来自{sender}。"
+        },
+        "1": {
+          "anItemComesWithIt": "信中附带一件物品。"
+        },
+        "2": {
+          "itCannotBeSentTo": "一段时间内不会再次发送给你。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "参考角色",
+  "placeholder": "选择参考对象",
+  "levelPrefix": "等级",
+  "clearSelection": "清除选择",
+  "searchPlaceholder": "搜索角色…",
+  "noResults": "没有符合搜索条件的角色。",
+  "doubleClickHint": "双击打开该角色",
+  "computedFor": "按{name}（{level}级）计算",
+  "showWithoutCharacter": "不使用角色显示",
+  "showWithoutBuild": "不使用配装显示",
+  "backToCharacterLevel": "返回{name}的等级",
+  "computeForCharacter": "按{name}计算",
+  "generatorName": "配装生成器",
+  "generatorHint": "你当前的设置",
+  "pvmpLabel": "玩家对战怪物"
+}

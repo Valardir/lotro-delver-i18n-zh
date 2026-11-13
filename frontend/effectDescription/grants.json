@@ -1,0 +1,87 @@
+{
+  "AddAccountPropertyEffect": {
+    "summary": "记录一项账户通用的里程碑。"
+  },
+  "GrantBirdEffect": {
+    "summary": "向观鸟爱好中添加一种鸟类。"
+  },
+  "GrantEmoteEffect": {
+    "summary": "教会一个表情动作。"
+  },
+  "GrantPurchasedTraitRankEffect": {
+    "summary": "为选定的美德增加经验。"
+  },
+  "GrantRecipeEffect": {
+    "summary": "教会一个制作配方。"
+  },
+  "GrantRecipeListEffect": {
+    "summary": "教会一本配方书中的所有配方。"
+  },
+  "GrantSkillEffect": {
+    "summary": "教会一个技能。",
+    "facts": {
+      "0": {
+        "theSkillComesFromThe": "技能取决于所使用的物品。"
+      }
+    }
+  },
+  "GrantTraitEffect": {
+    "summary": "授予一个特性。",
+    "facts": {
+      "0": {
+        "theTraitComesFromThe": "特性取决于所使用的物品。"
+      }
+    }
+  },
+  "GrantTraitRankEffect": {
+    "summary": "提升某个特性的等级。"
+  },
+  "LootgenEffect": {
+    "summary": "给予从掉落表中随机抽取的物品。",
+    "facts": {
+      "1": {
+        "eachTargetCanOnlyBe": "每个目标只能尝试一次。"
+      },
+      "2": {
+        "yourBagsNeedRoomFor": "你的背包需要有足够空间容纳这些物品。"
+      },
+      "3": {
+        "theItemsGoToWhoever": "物品归受此效果影响的人所有。"
+      }
+    }
+  },
+  "XPBonusEffect": {
+    "summary": "增加强化经验值。",
+    "facts": {
+      "0": {
+        "theAmountDependsOnYour": "数量取决于你的等级，达到等级上限后不再有效。"
+      }
+    }
+  },
+  "GRANT_CLASSES": {
+    "GrantSkillEffect": {
+      "lead": {
+        "teachesSkill": "永久教会你技能“{skill}”。"
+      }
+    },
+    "GrantTraitEffect": {
+      "lead": {
+        "givesTrait": "永久授予你特性“{trait}”。"
+      }
+    },
+    "GrantTraitRankEffect": {
+      "facts": {
+        "eachUseAddsRank": "每次使用增加{ranks}级，最高到{max}级。",
+        "eachUseAddsRanks": "每次使用增加{ranks}级，最高到{max}级。"
+      }
+    },
+    "LootgenEffect": {
+      "facts": {
+        "0": {
+          "findingNotGuaranteed": "不一定能找到东西：成功几率为{percent}。",
+          "findingNotGuaranteedBonuses": "不一定能找到东西：成功几率为{percent}，部分加成可以提高该几率。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "VITALS": {
+    "Health": "士气",
+    "Power": "能量",
+    "MountEndurance": "战马耐力",
+    "MountPower": "战马能量"
+  },
+  "AND": "和",
+  "OR": "或",
+  "LIST": {
+    "separator": "、",
+    "last": "{items}{word}{last}"
+  },
+  "UNITS": [
+    "秒",
+    "分",
+    "小时",
+    "天"
+  ],
+  "DURATION": "{major}{minor}",
+  "FULL_STOP": "。",
+  "names": {
+    "more": "另外{rest}个"
+  }
+}

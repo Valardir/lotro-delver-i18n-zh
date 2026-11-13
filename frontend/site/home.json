@@ -1,0 +1,45 @@
+{
+  "signIn": "登录",
+  "signUp": "注册",
+  "continueAsGuest": "以访客身份继续",
+  "loginBlockedTooltip": "目前无法登录",
+  "registrationBlockedTooltip": "目前无法注册",
+  "skipIntro": "跳过开场",
+  "learnMore": "了解更多",
+  "intro": {
+    "cosmos": {
+      "quote": "“有一如，独一之神，在阿尔达被称为伊露维塔。”",
+      "source": "J.R.R. 托尔金，《精灵宝钻》",
+      "meaning": "“让这些事物存在吧！”"
+    },
+    "morgoth": {
+      "quote": "“……他穿过烈火与愤怒，坠入一片熊熊烈焰，直落黑暗之中。”",
+      "source": "J.R.R. 托尔金，《精灵宝钻》"
+    },
+    "remnant": {
+      "quote": "“……他穿过烈火与愤怒，坠入一片熊熊烈焰，直落黑暗之中。”",
+      "source": "J.R.R. 托尔金，《精灵宝钻》"
+    },
+    "eos": {
+      "quote": "“那只眼睛四周环绕着火焰，眼珠却蒙着一层黄色的翳，像猫眼一样，警觉而专注……”",
+      "source": "J.R.R. 托尔金，《魔戒同盟》"
+    },
+    "maintenance": {
+      "quote": "“人不能就这样走进魔多……”",
+      "source": "……维护期间尤其不行。"
+    },
+    "earendil": {
+      "quote": "“愿它在黑暗之处为你照亮，当所有其他光芒都熄灭之时。”",
+      "source": "J.R.R. 托尔金，《魔戒同盟》"
+    },
+    "standoff": {
+      "quote": "“……到头来，阴影不过是一个渺小而短暂的东西：在它所不能及的远方，永远有光明与崇高的美。”",
+      "source": "J.R.R. 托尔金，《王者归来》"
+    },
+    "duel": {
+      "quote": "“他们的歌声来回摇荡。随着吟唱愈发强劲，二人摇摇晃晃，几近倾覆……”",
+      "source": "J.R.R. 托尔金，《精灵宝钻》"
+    }
+  },
+  "discord": "加入我们的 Discord 服务器"
+}

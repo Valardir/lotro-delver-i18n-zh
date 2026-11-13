@@ -1,0 +1,20 @@
+{
+  "title": "允许访问",
+  "wantsAccess": "请求通过你的账户使用 Lotro Delver。",
+  "canDo": "它将能够：",
+  "scopes": {
+    "tools": "代你查询游戏数据并使用 LotroGPT 的工具",
+    "openid": "识别你是哪个 Lotro Delver 账户",
+    "profile": "查看你的名称和头像",
+    "email": "查看你的电子邮件地址",
+    "offline_access": "保持连接，直到你将其移除"
+  },
+  "signedInAs": "当前登录账户：",
+  "trustNote": "请只允许你信任的应用。你可以随时在该应用中断开连接。",
+  "allow": "允许",
+  "deny": "拒绝",
+  "working": "处理中…",
+  "invalid": "此请求无效或已过期，请从你的应用重新开始连接。",
+  "noAccess": "你的账户无权在其他应用中使用 LotroGPT，因此该应用无法代你使用 Lotro Delver。",
+  "error": "出了点问题，请重试。"
+}

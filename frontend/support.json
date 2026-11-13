@@ -1,0 +1,155 @@
+{
+  "supportDictionary": {
+    "title": "支持中心",
+    "metaDescription": "提出问题、报告故障或错误的游戏数据，并跟进你的工单。",
+    "intro": "提出问题、报告故障，或告诉我们哪些游戏数据有误。我们会直接在这里回复，有回复时你会收到通知。",
+    "newTicket": "新建工单",
+    "myTickets": "我的工单",
+    "noTickets": "你还没有提交过工单。",
+    "knownIssues": "已知问题",
+    "knownIssuesHint": "是下面的某个问题吗？关注它即可，无需再提交工单，问题修复后我们会通知你。",
+    "helpPages": "浏览帮助页面",
+    "columnTicket": "工单",
+    "columnSubject": "主题",
+    "columnStatus": "状态",
+    "columnActivity": "最近动态",
+    "unreadReply": "新回复",
+    "newTitle": "提交工单",
+    "stepCategory": "是关于什么的？",
+    "stepDetails": "详情",
+    "change": "更改",
+    "subcategoryLabel": "哪一类数据？",
+    "subjectLabel": "主题",
+    "subjectPlaceholder": "简短概述",
+    "descriptionLabel": "描述",
+    "descriptionPlaceholder": "发生了什么，你期望的是什么，我们该如何自己复现？",
+    "urlLabel": "页面链接（可选）",
+    "urlHint": "如果是数据错误，请填写物品、效果或技能的页面。",
+    "attachmentsLabel": "附件",
+    "attachmentsHint": "截图（PNG、JPEG、WEBP、GIF）以及.txt 或.log 文件，每个最大10 MB，每条消息最多五个。照片中的位置信息会被移除。",
+    "addFiles": "添加文件",
+    "uploading": "上传中…",
+    "remove": "移除",
+    "submit": "发送工单",
+    "submitting": "发送中…",
+    "followUpNote": "此工单是对{ref}的跟进。",
+    "cancel": "取消",
+    "back": "全部工单",
+    "opened": "{date}提交",
+    "you": "你",
+    "team": "支持团队",
+    "replyPlaceholder": "写下你的回复…",
+    "sendReply": "发送回复",
+    "markResolved": "标记为已解决",
+    "statusNew": "我们已收到你的工单，会在这里回复。",
+    "statusWaiting": "我们在等待你的回复。",
+    "statusResolved": "已解决。如果问题仍未解决，请在一周内回复，工单会重新打开。",
+    "statusClosed": "此工单已关闭。如果你仍需帮助，请提交一个跟进工单。",
+    "followUp": "提交跟进工单",
+    "followUpOf": "{ref}的跟进",
+    "eventStatus": "状态已更改为{status}",
+    "linkLabel": "页面",
+    "download": "下载",
+    "reportDuplicate": "你已经报告过这个问题，我们正在工单{ref}中跟进。",
+    "unavailableBody": "支持中心正在重建。开放之前，请到我们的 Discord 服务器联系我们。",
+    "discord": "加入我们的 Discord",
+    "signInHelpLink": "无法登录？",
+    "signInHelpTitle": "无法登录？",
+    "signInHelpIntro": "提交工单需要账户，以下是通常能让你重新登录的办法。",
+    "providerTitle": "是用 Discord 或 Google 注册的吗？",
+    "providerBody": "请在登录页面使用同一个按钮，或在那里输入你账户的邮箱来获取验证码。",
+    "contactTitle": "还是不行？",
+    "contactBody": "到 Discord 上问我们，我们会帮你重新登录。",
+    "backToSignIn": "返回登录",
+    "fromTeam": "来自团队",
+    "noticeNoReply": "这是团队发来的消息，无法回复。如有疑问，请提交新工单。",
+    "teamMessages": "团队消息",
+    "startTitle": "支持",
+    "startStaffReplied": "支持团队已回复",
+    "startNone": "需要帮助？提交工单",
+    "startAll": "全部工单"
+  },
+  "ticketStatusText": {
+    "new": "已收到",
+    "open": "处理中",
+    "waiting_on_user": "等待你的回复",
+    "on_hold": "已搁置",
+    "resolved": "已解决",
+    "closed": "已关闭"
+  },
+  "ticketCategoryText": {
+    "account": {
+      "name": "账户",
+      "description": "你的账户、个人资料、角色或功能访问权限。"
+    },
+    "bug": {
+      "name": "出了故障",
+      "description": "页面无法加载、按钮没有反应，或是哪里看起来不对。"
+    },
+    "data": {
+      "name": "游戏数据有误",
+      "description": "某个物品、效果、技能或任务的数值有误，或者缺失。"
+    },
+    "client": {
+      "name": "Lotro Delver 客户端",
+      "description": "安装、同步角色，或桌面应用中的其他问题。"
+    },
+    "feature": {
+      "name": "功能建议",
+      "description": "你希望 Lotro Delver 具备的功能。"
+    },
+    "question": {
+      "name": "提问",
+      "description": "某个功能如何使用，或在哪里可以找到。"
+    },
+    "report": {
+      "name": "举报",
+      "description": "违反规则的个人资料或配装。"
+    },
+    "other": {
+      "name": "其他事项",
+      "description": "不属于以上任何一类的内容。"
+    },
+    "team": {
+      "name": "来自团队",
+      "description": "Lotro Delver 团队发给你的消息。"
+    },
+    "application": {
+      "name": "申请",
+      "description": "你加入团队协助工作或申请使用某项功能的申请。"
+    }
+  },
+  "ticketSubcategoryText": {
+    "item": "物品",
+    "effect": "效果",
+    "skill": "技能",
+    "trait": "特性",
+    "quest": "任务或事迹",
+    "instance": "副本",
+    "map": "地图",
+    "monster": "怪物",
+    "npc": "NPC",
+    "appearance": "外观",
+    "other": "其他",
+    "profile": "个人资料",
+    "build": "配装",
+    "comment": "评论",
+    "guide": "社区攻略",
+    "kinship": "家族页面",
+    "opening": "参与贡献"
+  },
+  "supportErrorText": {
+    "unauthorized": "请重新登录。",
+    "not_found": "此工单不存在，或不属于你。",
+    "invalid": "请检查各个字段。",
+    "closed": "此工单已关闭。",
+    "rate_limited": "你今天已经提交了多个工单。请补充到现有工单中，或明天再试。",
+    "attachment": "其中一个文件无法作为附件添加。",
+    "duplicate_report": "你已经报告过这个问题。",
+    "failed": "出了点问题，请重试。",
+    "uploadTooLarge": "{name}超过10 MB。",
+    "uploadType": "不支持{name}的文件类型。",
+    "uploadFailed": "{name}上传失败。",
+    "tooManyFiles": "每条消息最多五个文件。"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "editorLabel": "角色笔记",
+  "viewButton": "查看笔记",
+  "viewTitle": "笔记",
+  "editorPlaceholder": "写写你的角色，或按 Tab 键插入内容块",
+  "panelTitle": "角色数据",
+  "tab_titles": "称号",
+  "loading": "正在加载你的角色…",
+  "loadError": "无法加载你的角色数据。搜索仍可使用。",
+  "emptyGear": "从游戏中同步此角色后，即可在此引用其已装备的物品。",
+  "emptyTraits": "从游戏中同步此角色后，即可在此引用其特性树。",
+  "emptyVirtues": "从游戏中同步此角色后，即可在此引用其美德和种族特性。",
+  "emptySkills": "从游戏中同步此角色后，即可在此引用其技能。",
+  "emptyTitles": "从游戏中同步此角色后，即可在此引用其称号。",
+  "cancel": "取消",
+  "unsaved": "有未保存的更改",
+  "saveShortcut": "{0}+S 保存",
+  "discardTitle": "放弃你的更改？",
+  "discardBody": "你对这些笔记的编辑尚未保存。",
+  "keepEditing": "继续编辑",
+  "discard": "放弃"
+}
